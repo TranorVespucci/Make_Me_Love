@@ -1,5 +1,5 @@
 style the_bars:
-    right_bar "bar full idle.png"
+    right_bar "bar empty idle.png"
     xysize (200, 25)
 
 
@@ -18,5 +18,5 @@ screen bars:
         style "the_bars"
         value romance_points
         range 10
-        left_bar "bar empty idle.png"
+        left_bar "bar full idle.png"
         xalign 0.5

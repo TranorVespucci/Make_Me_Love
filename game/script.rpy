@@ -33,7 +33,7 @@ label start:
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     menu:
-        "I LOVE YOU UNDEFINED PNG":
+        "I LOVE YOU EILEEN HAPPY":
             $ romance_points += 1
             jump choice_done
 
