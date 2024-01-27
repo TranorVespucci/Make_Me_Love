@@ -191,6 +191,8 @@ screen pong(opponent, backdrop, opponent_pic):
 
     add backdrop
 
+    add Solid("#000c")
+
     add opponent_pic xalign 1.0 yalign 1.0
 
     add pong

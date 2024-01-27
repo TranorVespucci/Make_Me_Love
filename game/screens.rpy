@@ -1611,10 +1611,45 @@ style slider_slider:
 
 # Love stat button
 
-screen loveStats:
+screen loveStatButton:
     imagebutton:
         xalign 1.0
         yalign 0.0
         xoffset -30
         yoffset 30
         idle "heart.png"
+        action ShowMenu("loveStats")
+
+screen loveStats:
+    add Solid("#000c")
+    bar:
+        bar_vertical True
+        value zayn_stats
+        range 10
+        xalign 0.25
+        yalign 0.5
+        xysize(25, 200)
+
+    bar:
+        bar_vertical True
+        value randall_stats
+        range 10
+        xalign 0.5
+        yalign 0.5
+        xysize(25, 200)
+
+    bar:
+        bar_vertical True
+        value cynthia_stats
+        range 10
+        xalign 0.75
+        yalign 0.5
+        xysize(25, 200)
+
+    imagebutton:
+        xalign 1.0
+        yalign 0.0
+        xoffset -30
+        yoffset 30
+        idle "heart.png"
+        action Return()
