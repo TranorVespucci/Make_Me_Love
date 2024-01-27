@@ -4,6 +4,7 @@
 # name of the character.
 
 define  T = Character("Tranor", color="#4700a5")
+define  N = Character("Nena", color = "#b7007d")
 
 
 #Defining animations here
@@ -72,6 +73,15 @@ label start:
         jump choice1_done
 
     label choice1_done :
+
+    scene bg classroom
+    with Dissolve(3.0)
+
+    show nena
+    with dissolve
+
+    N "Geez, what an odd dream that was."
+
 
     # This ends the game.
 
