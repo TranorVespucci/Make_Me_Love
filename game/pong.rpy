@@ -18,7 +18,7 @@ init python:
 
 
             # Some displayables we use.
-            self.paddle = Solid("#ffffff", xsize=self.PADDLE_WIDTH, ysize=self.PADDLE_HEIGHT)
+            self.paddle = Solid("#990202", xsize=self.PADDLE_WIDTH, ysize=self.PADDLE_HEIGHT)
             self.ball = Solid("#ffffff", xsize=self.BALL_WIDTH, ysize=self.BALL_HEIGHT)
 
             # If the ball is stuck to the paddle.
@@ -29,7 +29,7 @@ init python:
             self.computery = self.playery
 
             # The speed of the computer.
-            self.computerspeed = 380.0
+            self.computerspeed = 520.0
 
             # The position, delta-position, and the speed of the
             # ball.
@@ -37,7 +37,7 @@ init python:
             self.by = self.playery
             self.bdx = .5
             self.bdy = .5
-            self.bspeed = 350.0
+            self.bspeed = 650.0
 
             # The time of the past render-frame.
             self.oldst = None

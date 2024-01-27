@@ -6,9 +6,11 @@
 define  C = Character("Cupid", color="#ffffff")
 define  N = Character("Nena", color = "#b7007d")
 define  Z = Character("Zayn", color = "#ffffff")
+
 default opponent = "Opponent"
 default backdrop = "bg classroom"
 default opponent_pic = "nena"
+
 default zayn_stats = 0
 default randall_stats = 0
 default cynthia_stats = 0
@@ -48,24 +50,23 @@ label start:
     C "If you've fallen in love by then, you have to admit that I was right and know more about the ways of love."
 
     show cupid neutral
+    with Dissolve(0.3)
 
     C "If that's not the case, too bad for you, but you've proved to the god of love that he too is not done with learning."
 
     C "And of course, you can claim that you have won against a god."
 
-    show screen loveStatButton
+    # show screen loveStatButton
 
     label play_pong:
 
         window hide
         $ quick_menu = False
 
-        call screen pong(opponent = "Cupid", backdrop = "bg classroom", opponent_pic = "cupid neutral")
+        call screen pong(opponent = "Cupid", backdrop = "bg classroom", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
 
         $ quick_menu = True
         window show
-
-        show cupid neutral
 
         if _return == opponent:
             C "I win!"
