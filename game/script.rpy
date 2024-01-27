@@ -4,8 +4,10 @@
 # name of the character.
 
 define  C = Character("Cupid", color="#ffffff")
-define  N = Character("Nena", color = "#b7007d")
+define  N = Character("Nena", color = "#ffffff")
 define  Z = Character("Zayn", color = "#ffffff")
+define  Cy = Character ("Cynthia", color = "#ffffff")
+define  T = Character ("Tranor", color = "#ffffff")
 
 default opponent = "Opponent"
 default backdrop = "bg classroom"

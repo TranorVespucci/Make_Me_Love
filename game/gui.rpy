@@ -69,7 +69,7 @@ define gui.interface_text_font = "rimouski sb.otf"
 define gui.text_size = 43
 
 ## The size of character names.
-define gui.name_text_size = 55
+define gui.name_text_size = 65
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 33
@@ -105,8 +105,8 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 530
-define gui.name_ypos = -100
+define gui.name_xpos = 510
+define gui.name_ypos = -107
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -133,7 +133,7 @@ define gui.dialogue_xpos = 0.5
 define gui.dialogue_ypos = 0
 
 style default:
-    outlines [ (absolute(1), "#000", absolute(0), absolute(0)) ]
+    outlines [ (absolute(1), "#6d4948", absolute(0), absolute(0)) ]
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
