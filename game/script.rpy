@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define  T = Character("Tranor", color="#4700a5")
+define  C = Character("Cupid", color="#ff0000")
 define  N = Character("Nena", color = "#b7007d")
 
 
@@ -11,10 +11,10 @@ define  N = Character("Nena", color = "#b7007d")
 
 transform a_middle_to_right:
     xalign 0.5 yalign 1.0
-    linear 1.0 xalign 1.0
+    linear 1.0 xalign 1.2
 
 transform a_right_to_middle:
-    xalign 1.0 yalign 1.0
+    xalign 1.2 yalign 1.0
     linear 1.0 xalign 0.5
 
 
@@ -32,20 +32,20 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show tranor idle
+    show cupid neutral
 
     # These display lines of dialogue.
 
-    T "You know what I always wondered..."
+    C "You know what I always wondered..."
 
-    show tranor sad
+  
 
-    T "What is the purpose of living?"
+    C "What is the purpose of living?"
 
-    show tranor sad at a_middle_to_right
+    show cupid neutral at a_middle_to_right
 
     menu :
-        T "What is the purpose of living?"
+        C "What is the purpose of living?"
         "Public Breastfeeding!":
             jump choice1_BF
 
@@ -54,21 +54,20 @@ label start:
 
     label choice1_BF :
         $ menu_flag = True
-        show tranor idle at a_right_to_middle
+        show cupid neutral at a_right_to_middle
     
-        T "The German Parliament forbid me to participate on public Breastfeeding, due to my War Crimes on brazillian Bicycle drivers..."
-        show tranor angry
-        T "Who the fuck would obey the german law anyway?!"
-        T "I have been committing Tax Fraud since you were in you dads milkballs!"
+        C "The German Parliament forbid me to participate on public Breastfeeding, due to my War Crimes on brazillian Bicycle drivers..."
+        C "Who the fuck would obey the german law anyway?!"
+        C "I have been committing Tax Fraud since you were in you dads milkballs!"
         jump choice1_done
     
     label choice1_HC :
         $ menu_flag = False
-        show tranor idle at a_right_to_middle
+        show cupid neutral at a_right_to_middle
         
-        T "I saw a horny chicken propose to his boyfriend by laying an egg as a marriage gift."
-        T "His way of replying to the proposal was to crack the egg on his boyfriends asshole and beat it until it was scrambled."
-        T "What a wonderfull world we live in!"
+        C "I saw a horny propose to his boyfriend by laying an egg as a marriage gift."
+        C "His way of replying to the proposal was to crack the egg on his boyfriends asshole and beat it until it was scrambled."
+        C "What a wonderfull world we live in!"
 
         jump choice1_done
 
