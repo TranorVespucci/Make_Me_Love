@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define  C = Character("Cupid", color="#ff0000")
+define  C = Character("Cupid", color="#ffffff")
 define  N = Character("Nena", color = "#b7007d")
 
 
