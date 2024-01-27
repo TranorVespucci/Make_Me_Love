@@ -5,6 +5,9 @@
 
 define  C = Character("Cupid", color="#ffffff")
 define  N = Character("Nena", color = "#b7007d")
+default opponent = "Opponent"
+default backdrop = "bg classroom"
+default opponent_pic = "nena"
 
 
 #Defining animations here
@@ -80,6 +83,25 @@ label start:
     with dissolve
 
     N "Geez, what an odd dream that was."
+
+    
+    label play_pong:
+
+        window hide
+        $ quick_menu = False
+
+        call screen pong(opponent = "Cupid", backdrop = "bg classroom", opponent_pic = "cupid neutral")
+
+        $ quick_menu = True
+        window show
+
+        show nena
+
+        if _return == opponent:
+            N "I win!"
+
+        else:
+            N "Ahh, well done. You got me all beat."
 
 
     # This ends the game.
