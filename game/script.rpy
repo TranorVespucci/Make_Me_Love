@@ -48,6 +48,8 @@ label start:
 
     show cupid neutral at a_middle_to_right
 
+    show screen loveStats
+
     menu :
         C "What is the purpose of living?"
         "Public Breastfeeding!":

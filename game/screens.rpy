@@ -1606,3 +1606,15 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+
+
+# Love stat button
+
+screen loveStats:
+    imagebutton:
+        xalign 1.0
+        yalign 0.0
+        xoffset -30
+        yoffset 30
+        idle "heart.png"
