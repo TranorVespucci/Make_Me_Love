@@ -33,77 +33,28 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg keanu uchiha
+    scene bg classroom
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show cupid neutral
+    show cupid mischievous
 
     # These display lines of dialogue.
 
-    C "You know what I always wondered..."
+    C "We'll meet again in a week."
 
-  
+    C "If you've fallen in love by then, you have to admit that I was right and know more about the ways of love."
 
-    C "What is the purpose of living?"
+    show cupid neutral
 
-    show cupid neutral at a_middle_to_right
+    C "If that's not the case, too bad for you, but you've proved to the god of love that he too is not done with learning."
+
+    C "And of course, you can claim that you have won against a god."
 
     show screen loveStatButton
 
-    menu :
-        C "What is the purpose of living?"
-        "Public Breastfeeding!":
-            jump choice1_BF
-
-        "To support horny chicken dating sim!":
-            jump choice1_HC
-
-    label choice1_BF :
-        $ menu_flag = True
-
-        show cupid neutral at a_right_to_middle
-    
-        C "The German Parliament forbid me to participate on public Breastfeeding, due to my War Crimes on brazillian Bicycle drivers..."
-
-        show cupid mischievous
-
-        C "Who the fuck would obey the german law anyway?!"
-
-        show cupid laughing
-
-        C "I have been committing Tax Fraud since you were in you dads milkballs!"
-        jump choice1_done
-    
-    label choice1_HC :
-        $ menu_flag = False
-        show cupid neutral at a_right_to_middle
-
-        C "I saw a horny propose to his boyfriend by laying an egg as a marriage gift."
-
-        show cupid blushing
-
-        C "His way of replying to the proposal was to crack the egg on his boyfriends asshole and beat it until it was scrambled."
-
-        show cupid laughing
-
-        C "What a wonderfull world we live in!"
-
-        jump choice1_done
-
-    label choice1_done :
-
-    scene bg classroom
-    with Dissolve(3.0)
-
-    show zayn neutral
-    with dissolve
-
-    Z "Geez, what an odd dream that was."
-
-    
     label play_pong:
 
         window hide
@@ -114,13 +65,13 @@ label start:
         $ quick_menu = True
         window show
 
-        show zayn neutral
+        show cupid neutral
 
         if _return == opponent:
-            Z "I win!"
+            C "I win!"
 
         else:
-            Z "Ahh, well done. You got me all beat."
+            C "Ahh, well done. You got me all beat."
 
 
     # This ends the game.

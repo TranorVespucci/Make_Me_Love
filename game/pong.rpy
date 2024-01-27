@@ -18,8 +18,8 @@ init python:
 
 
             # Some displayables we use.
-            self.paddle = Solid("#000000", xsize=self.PADDLE_WIDTH, ysize=self.PADDLE_HEIGHT)
-            self.ball = Solid("#000000", xsize=self.BALL_WIDTH, ysize=self.BALL_HEIGHT)
+            self.paddle = Solid("#ffffff", xsize=self.PADDLE_WIDTH, ysize=self.PADDLE_HEIGHT)
+            self.ball = Solid("#ffffff", xsize=self.BALL_WIDTH, ysize=self.BALL_HEIGHT)
 
             # If the ball is stuck to the paddle.
             self.stuck = True
