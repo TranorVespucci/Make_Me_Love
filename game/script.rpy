@@ -6,13 +6,9 @@
 define  C = Character("Cupid", color="#ffffff")
 define  N = Character("Nena", color = "#b7007d")
 define  Z = Character("Zayn", color = "#ffffff")
-
 default opponent = "Opponent"
 default backdrop = "bg classroom"
 default opponent_pic = "nena"
-default zayn_stats = 0
-default randall_stats = 0
-default cynthia_stats = 0
 
 
 #Defining animations here
@@ -51,8 +47,6 @@ label start:
     C "What is the purpose of living?"
 
     show cupid neutral at a_middle_to_right
-
-    show screen loveStatButton
 
     menu :
         C "What is the purpose of living?"
