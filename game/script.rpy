@@ -66,7 +66,7 @@ label start:
         $ menu_flag = False
         show tranor idle at a_right_to_middle
         
-        T "I saw a horny propose to his boyfriend by laying an egg as a marriage gift."
+        T "I saw a horny chicken propose to his boyfriend by laying an egg as a marriage gift."
         T "His way of replying to the proposal was to crack the egg on his boyfriends asshole and beat it until it was scrambled."
         T "What a wonderfull world we live in!"
 
