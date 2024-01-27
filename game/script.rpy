@@ -5,6 +5,7 @@
 
 define  C = Character("Cupid", color="#ffffff")
 define  N = Character("Nena", color = "#b7007d")
+define  Z = Character("Zayn", color = "#ffffff")
 default opponent = "Opponent"
 default backdrop = "bg classroom"
 default opponent_pic = "nena"
@@ -57,19 +58,32 @@ label start:
 
     label choice1_BF :
         $ menu_flag = True
+
         show cupid neutral at a_right_to_middle
     
         C "The German Parliament forbid me to participate on public Breastfeeding, due to my War Crimes on brazillian Bicycle drivers..."
+
+        show cupid mischievous
+
         C "Who the fuck would obey the german law anyway?!"
+
+        show cupid laughing
+
         C "I have been committing Tax Fraud since you were in you dads milkballs!"
         jump choice1_done
     
     label choice1_HC :
         $ menu_flag = False
         show cupid neutral at a_right_to_middle
-        
+
         C "I saw a horny propose to his boyfriend by laying an egg as a marriage gift."
+
+        show cupid blushing
+
         C "His way of replying to the proposal was to crack the egg on his boyfriends asshole and beat it until it was scrambled."
+
+        show cupid laughing
+
         C "What a wonderfull world we live in!"
 
         jump choice1_done
@@ -79,10 +93,10 @@ label start:
     scene bg classroom
     with Dissolve(3.0)
 
-    show nena
+    show zayn neutral
     with dissolve
 
-    N "Geez, what an odd dream that was."
+    Z "Geez, what an odd dream that was."
 
     
     label play_pong:
@@ -95,13 +109,13 @@ label start:
         $ quick_menu = True
         window show
 
-        show nena
+        show zayn neutral
 
         if _return == opponent:
-            N "I win!"
+            Z "I win!"
 
         else:
-            N "Ahh, well done. You got me all beat."
+            Z "Ahh, well done. You got me all beat."
 
 
     # This ends the game.
