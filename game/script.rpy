@@ -6,6 +6,17 @@
 define  T = Character("Tranor", color="#4700a5")
 
 
+#Defining animations here
+
+transform a_middle_to_right:
+    xalign 0.5 yalign 1.0
+    linear 1.0 xalign 1.0
+
+transform a_right_to_middle:
+    xalign 1.0 yalign 1.0
+    linear 1.0 xalign 0.5
+
+
 # The game starts here.
 
 label start:
@@ -30,8 +41,7 @@ label start:
 
     T "What is the purpose of living?"
 
-    show tranor sad:
-        xalign 0.95
+    show tranor sad at a_middle_to_right
 
     menu :
         T "What is the purpose of living?"
@@ -43,9 +53,7 @@ label start:
 
     label choice1_BF :
         $ menu_flag = True
-        show tranor idle:
-            xalign 0.5
-            yalign 0.99 
+        show tranor idle at a_right_to_middle
     
         T "The German Parliament forbid me to participate on public Breastfeeding, due to my War Crimes on brazillian Bicycle drivers..."
         show tranor angry
@@ -55,9 +63,7 @@ label start:
     
     label choice1_HC :
         $ menu_flag = False
-        show tranor idle:
-            xalign 0.5
-            yalign 0.99 
+        show tranor idle at a_right_to_middle
         
         T "I saw a horny propose to his boyfriend by laying an egg as a marriage gift."
         T "His way of replying to the proposal was to crack the egg on his boyfriends asshole and beat it until it was scrambled."
