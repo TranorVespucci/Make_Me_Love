@@ -66,16 +66,22 @@ label start:
         window hide
         $ quick_menu = False
 
-        call screen pong(opponent = "Cupid", backdrop = "bg classroom", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
+        hide cupid laughing
+
+        call screen pong(opponent = "Cynthia", backdrop = "bar dark", opponent_pic = "cynthia neutral") with Fade(0.5, 1.0, 0.5, color = '#000')
+
+        show cynthia laughing
 
         $ quick_menu = True
         window show
 
+        
+
         if _return == opponent:
-            C "I win!"
+            Cy "You know, I wouldn't have thought of you that way when I first met you."
 
         else:
-            C "Ahh, well done. You got me all beat."
+            Cy "Ahh, well done. You got me all beat."
 
 
     # This ends the game.
