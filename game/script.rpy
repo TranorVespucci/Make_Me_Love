@@ -49,7 +49,7 @@ label start:
 
     C "If you've fallen in love by then, you have to admit that I was right and know more about the ways of love."
 
-    show cupid neutral
+    show cupid laughing
     with Dissolve(0.3)
 
     C "If that's not the case, too bad for you, but you've proved to the god of love that he too is not done with learning."
