@@ -1626,25 +1626,31 @@ screen loveStats:
         bar_vertical True
         value zayn_stats
         range 10
-        xalign 0.25
+        xalign 0.3
         yalign 0.5
-        xysize(25, 200)
+        xysize(35, 500)
+
+    add "zayn neutral" xysize(283, 498) xalign 0.15 yalign 0.5
 
     bar:
         bar_vertical True
         value randall_stats
         range 10
-        xalign 0.5
+        xalign 0.56
         yalign 0.5
-        xysize(25, 200)
+        xysize(35, 500)
+
+    add "zayn neutral" xysize(283, 498) xalign 0.45 yalign 0.5
 
     bar:
         bar_vertical True
         value cynthia_stats
         range 10
-        xalign 0.75
+        xalign 0.82
         yalign 0.5
-        xysize(25, 200)
+        xysize(35, 500)
+
+    add "zayn neutral" xysize(283, 498) xalign 0.75 yalign 0.5
 
     imagebutton:
         xalign 1.0
