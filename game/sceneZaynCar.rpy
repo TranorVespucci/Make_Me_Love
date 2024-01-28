@@ -131,4 +131,5 @@ else:
 
 
 
-return
+jump scene_cynthia_closing
+

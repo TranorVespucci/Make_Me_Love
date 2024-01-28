@@ -95,3 +95,84 @@ label scene_cynthia_closing:
 
     $ quick_menu = True
     window show
+
+    if _return == opponent:
+        Narrator "I have to laugh at that- it’s very on the nose, but her boldness is both amusing and… Well…"
+        Narrator "Ok, yea, it’s hot. "
+
+        show i_cynthia mischievous
+
+        cynthia "Go on then will you, quit staring, I’m thirsty!"
+
+        Narrator "I notice that I might have let my stare linger on her for a bit too long but… It’s very difficult to tear myself away from her. "
+
+        Me "Okok, You’ve got it boss!"
+
+
+    else:
+        Narrator "I chuckle, but more out of politeness and less because I find it funny… "
+        Narrator "I think she can sense that it wasn’t genuine because she gets a bit quieter but doesn’t slump together out of insecurity. "
+        Narrator "She’s funny that way- she can get shy, but out of vulnerability I feel and less out of an awkwardness with herself… She’s… yea. I don’t know. She intrigues me. "
+
+    
+    Me "One expresso martini, coming right up!"
+
+    Narrator "I wink at her and am about to turn around to actually MAKE the drink at this point, when I turn around and see- "
+
+    show zayn neutral:
+        xalign 0.3 yalign 1.0
+    with moveinleft
+        
+    show i_cynthia mischievous:
+        xalign 0.5 yalign 1.0
+        linear 0.5 xalign 0.75
+
+    $ renpy.pause()
+
+    hide zayn neutral
+    hide cynthia mischievous
+
+    show i_zayn neutral:
+        xalign 0.3 yalign 1.0
+    show i_cynthia mischievous:
+        xalign 0.75 yalign 1.0
+
+    zayn "Still working, little one?"
+
+    Narrator "I’m holding bottles in my hands. "
+    Narrator "The grin that slowly falls from my face was put there in the first place by Cynthia. "
+
+    show i_cynthia neutral:
+        xalign 0.75 yalign 1.0
+
+    Narrator "This. This is awkward. "
+    Narrator "Cynthia sits up straighter, not insecure by herself but sensing my shift in mood. "
+    Narrator "Zayn crosses his arms and projects casualness as he leans back his head and raises his arms to stretch his neck.  "
+    Narrator "Which isn’t attractive to me at all, that leaves me completely unaffected. Help. "
+
+    cynthia "..."
+
+    Narrator "Amazing. Now we have an awkward silence. Great.  "
+    Narrator "I’m being dramatic, it luckily doesn’t go on for long, it’s just a beat in time, but it’s still bad. I can’t believe I didn’t see him come back; I hope he wasn’t there long… "
+
+    zayn "…Well I’m only asking because I don’t think you’ve taken your break yet so- go and I’ll make the customer her drink."
+
+    show i_cynthia mischievous:
+        xalign 0.75 yalign 1.0
+
+    cynthia "Cynthia snorts, prompting Zayn to look at her sharply, and then look back at me with an expression that is the definition of disapproval. "
+
+    Me "Ah yes, I probably should do that then-"
+
+    Narrator "Before I have a chance to further figure out who to say what to, say goodbye or promise to call or not call Cynthia, Zayn jumps to action. "
+    Narrator "He calmly but forcefully takes the bottles from of my hands, pushes me out from behind the bar, and steers me in the direction of the door.  "
+    Narrator "Within seconds I am a good distance away from Cynthia and Zayn rushes back toward the bar. "
+    Narrator "I can’t even begin to process the usual feelings that would be accompanied by feeling him grip me that way, of how close we are as he pushes me away, or what it is to see how seemingly intimidated he is by Cynthia- "
+
+    show i_cynthia laughing:
+        xalign 0.75
+
+    Narrator "I’m too distracted by Cynthia stealthily turning around to me as Zayn takes my place at the bar.  "
+    Narrator "She mouths “Call me” and winks at me, before quickly turning around and playing patient yet entitled customer again, the moment Zayn looks back up.  "
+    Narrator "I need to get out of here. "
+
