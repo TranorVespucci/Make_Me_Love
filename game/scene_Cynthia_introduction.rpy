@@ -77,8 +77,8 @@ Narrator "She just… emmates importance."
 cynthia "Thank you very much sir, you too!"
 
 Narrator "…I was too focused to notice her order being finished up. My breath catches in my throat, as I try to awaken quickly, to not lose the chance to thank her for her action. "
-Narrator "It’s only now that I truly realize what happens and I am wrecked with guilt that I was too busy staring at this woman to remember to decline her offer to pay for me. I know my wallet is in there, I would just have needed another minute or so to find it…"
-
+Narrator "It’s only now that I truly realize what happens and I am wrecked with guilt that I was too busy staring at this woman to remember to decline her offer to pay for me."
+Narrator "I know my wallet is in there, I would just have needed another minute or so to find it…"
 Me "Thank you so much, just you wait one second, I will pay you back immediately!"
 
 Narrator "I’m about to start jumping into my search once more when she gently places her hand on my shoulder and gives it a slight squeeze."
