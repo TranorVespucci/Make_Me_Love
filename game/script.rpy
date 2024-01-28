@@ -186,10 +186,17 @@ label start:
     show i_cupid mischievous
 
     cupid "If you're so certain about it, I'm sure you won't mind if I show you a little sample of my magic."
+
+    show love rahmen
+    with Dissolve(.5)
+
     cupid "Of course, I won't play unfairly. That wouldn't be any fun either."
 
     Narrator "I don't have time to respond to his offer because the moment he speaks, my body starts tingling all over again."
     Narrator "All the clearing of my mind seems to have been in vain and I let myself fall completely into his lulling warmth."
+
+    hide love rahmen
+    with Dissolve(.5)
 
     hide i_cupid mischievous
 
