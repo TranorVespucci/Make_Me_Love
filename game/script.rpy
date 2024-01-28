@@ -67,8 +67,8 @@ default backdrop = "bg classroom"
 default opponent_pic = "nena"
 
 default zayn_stats = 0
-default randall_stats = 3
-default cynthia_stats = 7
+default randall_stats = 0
+default cynthia_stats = 0
 
 
 
