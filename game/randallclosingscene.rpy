@@ -1,10 +1,14 @@
 label scene_randall:
 
+stop music
+
 window hide
 $ quick_menu = False
 
 scene street dark
 with Dissolve(3.0)
+
+play music "dialogue_song.mp3" loop
 
 $ renpy.pause()
 
@@ -77,7 +81,15 @@ Narrator "I hear the sound of Randall cursing at something. This man is ridiculo
 window hide
 $ quick_menu = False
 
+stop Music
+
+play music "pong_song.mp3" loop
+
 call screen pong(opponent = "Randall", backdrop = "street dark", opponent_pic = "randall pizza neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
+
+stop music
+
+play music "dialogue_song.mp3" loop
 
 $ quick_menu = True
 window show
@@ -87,7 +99,7 @@ if _return == opponent:
     Narrator "I hear more cursing and frustrated grunts, though they are stifled by the corridor."
     Narrator "I like him."
 else:
-        Narrator "It does have a slight charm, being clumsy. But… I’m not attracted to the idea of having to help someone out at all times either?"
+    Narrator "It does have a slight charm, being clumsy. But… I’m not attracted to the idea of having to help someone out at all times either?"
 
 Narrator "It takes a few moments but finally, he emerges."
 
@@ -179,4 +191,4 @@ with moveinright
 
 Narrator " when I see, standing by the bus stop an all too familiar face."
 
-return
+jump scene_cupid_closing
