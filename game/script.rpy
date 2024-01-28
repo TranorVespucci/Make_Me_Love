@@ -24,6 +24,12 @@ image i_zayn mischievous= At('zayn mischievous', sprite_highlight('zayn'))
 image i_zayn laughing= At('zayn laughing', sprite_highlight('zayn'))
 image i_zayn blushing= At('zayn blushing', sprite_highlight('zayn'))
 
+#Randall
+
+image i_randall neutral = At('tranor idle', sprite_highlight('randall'))
+image i_randall mischievous = At('tranor idle', sprite_highlight('randall'))
+image i_randall laughing = At('tranor idle', sprite_highlight('randall'))
+image i_randall blbushing = At('tranor idle', sprite_highlight('randall'))
 
 #Becky
 image i_becky neutral= At('nena', sprite_highlight('becky'))
@@ -35,6 +41,7 @@ define cupid = Character('Cupid', image='i_cupid', callback=name_callback, cb_na
 define cynthia = Character('Cynthia', image='i_cynthia', callback=name_callback, cb_name='cynthia', color="#ffffff")
 define zayn = Character('Zayn', image='i_zayn', callback=name_callback, cb_name='zayn', color="#ffffff")
 define becky = Character('Becky', image='i_becky', callback=name_callback, cb_name='becky', color="#ffffff")
+define randall = Character('Randall', image = 'tranor idle', callback=name_callback, cb_name='randall', color="#ffffff")
 
 #defining mysterious Cupid
 define mystery = Character('???', image='i_cupid', callback=name_callback, cb_name='mystery')
