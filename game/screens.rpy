@@ -1629,7 +1629,7 @@ screen loveStats:
         yalign 0.5
         xysize(35, 500)
 
-    add "zayn neutral" xysize(283, 498) xalign 0.15 yalign 0.5
+    add "zayn silhouette" xysize(427, 498) xalign 0.15 yalign 0.5
 
     bar:
         bar_vertical True
@@ -1639,7 +1639,7 @@ screen loveStats:
         yalign 0.5
         xysize(35, 500)
 
-    add "cynthia neutral" xysize(447, 498) xalign 0.45 yalign 0.5
+    add "cynthia silhouette" xysize(447, 498) xalign 0.45 yalign 0.5
 
     bar:
         bar_vertical True
@@ -1649,7 +1649,7 @@ screen loveStats:
         yalign 0.5
         xysize(35, 500)
 
-    add "zayn neutral" xysize(283, 498) xalign 0.75 yalign 0.5
+    add "zayn silhouette" xysize(427, 498) xalign 0.80 yalign 0.5
 
     imagebutton:
         xalign 1.0
