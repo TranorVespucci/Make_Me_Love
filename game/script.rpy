@@ -32,7 +32,7 @@ image i_randall laughing = At('tranor idle', sprite_highlight('randall'))
 image i_randall blbushing = At('tranor idle', sprite_highlight('randall'))
 
 #Becky
-image i_becky neutral= At('nena', sprite_highlight('becky'))
+image i_becky neutral= At('becky silhouette', sprite_highlight('becky'))
 
 #Defining these Characters
 define Narrator = Character(callback=name_callback, cb_name=None,)

@@ -3,8 +3,8 @@ label scene_randall_1:
     window hide
     $ quick_menu = False
 
-    scene street dark
-    with Fade
+    scene street bright
+    with fade
 
     $ renpy.pause()
 
