@@ -142,7 +142,8 @@ label start:
 
     Narrator "His words wash over me like a wave of butterflies tingling every part of my body."
     Narrator "Rose clouds make me feel lightheaded as I turn around to see the most handsome man I have ever seen in life."
-    Narrator "Dressed in shades of pink, red, and white and with hair of the same variation, his image resembles that of an angel. My breath instantly stops and I can't help but stare."
+    Narrator "Dressed in shades of pink, red, and white and with hair of the same variation, his image resembles that of an angel."
+    Narrator "My breath instantly stops and I can't help but stare."
 
     Me "Oh my God!"
 
@@ -238,7 +239,7 @@ label start:
 
         show i_cupid mischievous
 
-        extend "but that won't be a problem for you my dear, right?"
+        extend " but that won't be a problem for you my dear, right?"
 
         Narrator "His grip on my mind seems to tighten all at once, because all I want to do is agree with him and make him happy."
         Narrator "It's as if my head is moving and nodding on its own, as if in a trance. The smile he gave me in response made me completely lose touch with reality."
