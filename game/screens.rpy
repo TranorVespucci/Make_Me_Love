@@ -1623,8 +1623,8 @@ screen loveStats:
     add Solid("#000c")
     bar:
         bar_vertical True
-        bottom_bar "bottom new.png"
-        top_bar "top new.png"
+        top_bar "bottom new.png"
+        bottom_bar "top new.png"
         thumb "bar cursor.png"
        
         value zayn_stats
@@ -1637,8 +1637,8 @@ screen loveStats:
 
     bar:
         bar_vertical True
-        bottom_bar "bottom new.png"
-        top_bar "top new.png"
+        top_bar "bottom new.png"
+        bottom_bar "top new.png"
         thumb "bar cursor.png"
         
         value cynthia_stats
@@ -1650,8 +1650,8 @@ screen loveStats:
     add "cynthia silhouette" xysize(447, 498) xalign 0.45 yalign 0.5
 
     bar:
-        bottom_bar "bottom new.png"
-        top_bar "top new.png"
+        top_bar "bottom new.png"
+        bottom_bar "top new.png"
         bar_vertical True
         thumb "bar cursor.png"
         
