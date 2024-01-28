@@ -1,4 +1,4 @@
-label scene2:
+label scene_cynthia_introduction:
 
 window hide
 $ quick_menu = False

@@ -270,7 +270,6 @@ label start:
 
         Narrator "Heat makes its electrified way through my body. It must have something to do with his magic!"
 
-        show screen loveStatButton
 
 
     show i_cupid neutral
