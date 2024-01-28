@@ -45,6 +45,7 @@ define randall = Character('Randall', image = 'tranor idle', callback=name_callb
 
 #defining mysterious Cupid
 define mystery = Character('???', image='i_cupid', callback=name_callback, cb_name='mystery')
+define mystery_randall = Character('???', image='tranor idle', callback=name_callback, cb_name='mystery_randall')
 
 
 
