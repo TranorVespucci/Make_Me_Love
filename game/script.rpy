@@ -73,7 +73,7 @@ label start:
 
     pause .5
 
-    scene bar dark:
+    scene street dark:
         alpha 3
 
     # This shows a character sprite. A placeholder is used, but you can
