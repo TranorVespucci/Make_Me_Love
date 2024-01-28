@@ -1632,10 +1632,15 @@ screen loveStats:
         value zayn_stats
         range 10
         xalign 0.3
-        yalign 0.5
+        yalign 0.56
         xysize(82, 418)
 
-    add "zayn silhouette" xysize(427, 498) xalign 0.15 yalign 0.5
+    if met_randall == False:
+        add "zayn silhouette" xysize(427, 498) xalign 0.15 yalign 0.5
+
+    else:
+        add "zayn neutral" xysize(283, 489) xalign 0.15 yalign 0.5
+
 
     bar:
         bar_vertical True
@@ -1648,10 +1653,14 @@ screen loveStats:
         value cynthia_stats
         range 10
         xalign 0.55
-        yalign 0.5
+        yalign 0.56
         xysize(82, 418)
 
-    add "cynthia silhouette" xysize(447, 498) xalign 0.45 yalign 0.5
+    if met_cynthia == False:
+        add "cynthia silhouette" xysize(447, 498) xalign 0.45 yalign 0.5
+
+    else:
+        add "cynthia neutral" xysize(447, 498) xalign 0.45 yalign 0.5
 
     bar:
         top_bar "bottom new.png"
@@ -1664,10 +1673,14 @@ screen loveStats:
         value randall_stats
         range 10
         xalign 0.83
-        yalign 0.5
+        yalign 0.56
         xysize(82, 418)
 
-    add "zayn silhouette" xysize(427, 498) xalign 0.80 yalign 0.5
+    if met_zayn == False:
+        add "zayn silhouette" xysize(427, 498) xalign 0.80 yalign 0.5
+
+    else:
+        add "zayn neutral" xysize(283, 489) xalign 0.750 yalign 0.5
 
     imagebutton:
         xalign 1.0

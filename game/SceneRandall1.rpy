@@ -166,6 +166,8 @@ label scene_randall_1:
 
     randall "I, me, I'm Randall."
 
+    $ met_randall = True
+
     Narrator "..."
     Narrator "Shit. He’s adorable."
 

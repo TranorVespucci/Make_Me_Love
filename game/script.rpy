@@ -50,6 +50,10 @@ define mystery = Character('???', image='i_cupid', callback=name_callback, cb_na
 define mystery_randall = Character('???', image='i_mysteryR', callback=name_callback, cb_name='mystery_randall')
 
 
+define met_randall = False
+define met_cynthia = False
+define met_zayn = False
+
 
 default opponent = "Opponent"
 default backdrop = "bg classroom"
@@ -58,6 +62,7 @@ default opponent_pic = "nena"
 default zayn_stats = 0
 default randall_stats = 3
 default cynthia_stats = 7
+
 
 
 #Defining animations here
