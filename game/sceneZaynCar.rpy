@@ -143,5 +143,5 @@ else:
 
 stop music fadeout 1.0
 
-jump scene_cynthia_closing
+jump scene_zayn_bar
 

@@ -43,7 +43,7 @@ label scene_zayn_bar:
         xalign 0.3 yalign 1.0
     with moveinleft
         
-    show becky:
+    show i_becky neutral:
         xalign 0.5 yalign 1.0
         linear 0.5 xalign 0.75
 
@@ -56,23 +56,31 @@ label scene_zayn_bar:
 
     Narrator "Becky and I both bore Zayn with half accusatory half expectant looks. Zayn raises his arms in a defensive stance and stands completely unaware."
 
+    hide zayn neutral
+
     show i_zayn neutral:
         xalign 0.3 yalign 1.0
     
     zayn "I have no clue what you are talking about. Dane is single."
 
+    hide i_zayn neutral
+
     show i_zayn laughing:
         xalign 0.3 yalign 1.0
+    
 
     zayn "I mean, yes, I'm a bit of a tease sometimes, but I wouldn't let you flirt with my best mate if he had a girlfriend."
 
-    show i_zayn normal:
+    hide i_zayn laughing
+
+    show i_zayn neutral:
         xalign 0.3 yalign 1.0
 
     Narrator "Beckie's confusion is well visible and I myself can´t read any dishonesty out of is face. Then Becky completely broke down."
 
     becky "But his pictures. There was this girl. All over them. Why is everything so complicated?!"
 
+    hide i_zayn neutral
     show i_zayn laughing:
         xalign 0.3 yalign 1.0
 
@@ -86,7 +94,8 @@ label scene_zayn_bar:
 
     Narrator "This girl really needs to relax. I look at Zayn expectingly."
 
-    show i_zayn normal:
+    hide i_zayn laughing
+    show i_zayn neutral:
         xalign 0.3 yalign 1.0  
 
     zayn "I don’t know if he likes you or not. That was yesterday. I hadn´t have time to talk to him."
@@ -95,12 +104,14 @@ label scene_zayn_bar:
 
     Me "Urgh are you good for anything?"
 
+    hide i_zayn neutral
     show i_zayn mischievous:
         xalign 0.3 yalign 1.0 
 
     zayn "More than you would imagine."
 
-    show i_zayn normal:
+    hide i_zayn mischievous
+    show i_zayn neutral:
         xalign 0.3 yalign 1.0  
 
     zayn "He winks at me and then turns to Becky."
@@ -111,6 +122,7 @@ label scene_zayn_bar:
 
     zayn "You two are absolutely hopeless. Watch and learn."
 
+    hide i_zayn neutral
     show i_zayn mischievous:
         xalign 0.3 yalign 1.0 
 
@@ -122,13 +134,16 @@ label scene_zayn_bar:
 
     Me "Oh that was so horrible."
 
+    hide i_zayn mischievous
     show i_zayn laughing:
         xalign 0.3 yalign 1.0  
 
     zayn "But I made you laugh."
     
-    show i_zayn normal:
+    hide i_zayn laughing
+    show i_zayn neutral:
         xalign 0.3 yalign 1.0  
+
 
     zayn "No, but seriously, relax. Tonight is a couple-night. Slow dances and a lot of romantic interactions."
 
@@ -140,6 +155,7 @@ label scene_zayn_bar:
 
     Narrator "Completely paralysed she slowly takes his hand and walks away with him. I slam my face in disbelief and silently curse everything possible. Zayn appears next to me."
 
+    hide i_zayn neutral
     hide i_becky neutral
     show i_zayn laughing:
         xalign 0.3 yalign 1.0

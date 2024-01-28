@@ -66,6 +66,7 @@ define zayn = Character('Zayn', image='i_zayn', callback=name_callback, cb_name=
 define becky = Character('Becky', image='i_becky', callback=name_callback, cb_name='becky', color="#ffffff")
 define randall = Character('Randall', image = 'tranor idle', callback=name_callback, cb_name='randall', color="#ffffff")
 
+define Dane = Character('Dane')
 define devs = Character('???')
 
 #defining mysterious Cupid
