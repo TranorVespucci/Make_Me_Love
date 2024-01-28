@@ -36,12 +36,23 @@ image i_zayn mischievous= At('zayn mischievous', sprite_highlight('zayn'))
 image i_zayn laughing= At('zayn laughing', sprite_highlight('zayn'))
 image i_zayn blushing= At('zayn blushing', sprite_highlight('zayn'))
 
-#Randall
-
+#Randall Mail
 image i_randall neutral = At('randall mail normal', sprite_highlight('randall'))
 image i_randall mischievous = At('randall mail mischivous', sprite_highlight('randall'))
 image i_randall laughing = At('randall mail laughing', sprite_highlight('randall'))
 image i_randall blushing = At('randall mail blushing', sprite_highlight('randall'))
+
+#Randall Pizza
+image i_randall pizza neutral = At('randall pizza neutral', sprite_highlight('randall'))
+image i_randall pizza mischievous = At('randall pizza mischivous', sprite_highlight('randall'))
+image i_randall pizza laughing = At('randall pizza laughing', sprite_highlight('randall'))
+image i_randall pizza blushing = At('randall pizza blushing', sprite_highlight('randall'))
+
+#Randal Normal
+image i_randall normal neutral = At('randall neutral', sprite_highlight('randall'))
+image i_randall normal mischievous = At('randall mischivous', sprite_highlight('randall'))
+image i_randall normal laughing = At('randall laughing', sprite_highlight('randall'))
+image i_randall normal blushing = At('randall blushing', sprite_highlight('randall'))
 
 #Becky
 image i_becky neutral= At('becky outline', sprite_highlight('becky'))

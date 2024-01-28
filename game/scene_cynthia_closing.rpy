@@ -178,3 +178,5 @@ label scene_cynthia_closing:
     Narrator "She mouths “Call me” and winks at me, before quickly turning around and playing patient yet entitled customer again, the moment Zayn looks back up.  "
     Narrator "I need to get out of here. "
 
+    jump scene_randall
+
