@@ -286,6 +286,7 @@ label start:
 
     Narrator "that's it for now."
 
+    jump scene2
 
     # show screen loveStatButton
 
