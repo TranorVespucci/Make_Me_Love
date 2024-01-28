@@ -59,12 +59,14 @@ image i_becky neutral= At('becky outline', sprite_highlight('becky'))
 
 #Defining these Characters
 define Narrator = Character(callback=name_callback, cb_name=None,)
-define Me = Character('Layla', callback=name_callback, cb_name=None, color="#ffffff")
+define Me = Character('Leyla', callback=name_callback, cb_name=None, color="#ffffff")
 define cupid = Character('Cupid', image='i_cupid', callback=name_callback, cb_name='cupid', color="#ffffff")
 define cynthia = Character('Cynthia', image='i_cynthia', callback=name_callback, cb_name='cynthia', color="#ffffff")
 define zayn = Character('Zayn', image='i_zayn', callback=name_callback, cb_name='zayn', color="#ffffff")
 define becky = Character('Becky', image='i_becky', callback=name_callback, cb_name='becky', color="#ffffff")
 define randall = Character('Randall', image = 'tranor idle', callback=name_callback, cb_name='randall', color="#ffffff")
+
+define devs = Character('???')
 
 #defining mysterious Cupid
 define mystery = Character('???', image='i_cupid', callback=name_callback, cb_name='mystery')
