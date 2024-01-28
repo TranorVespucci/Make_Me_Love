@@ -1633,17 +1633,17 @@ screen loveStats:
 
     bar:
         bar_vertical True
-        value randall_stats
+        value cynthia_stats
         range 10
         xalign 0.56
         yalign 0.5
         xysize(35, 500)
 
-    add "zayn neutral" xysize(283, 498) xalign 0.45 yalign 0.5
+    add "cynthia neutral" xysize(447, 498) xalign 0.45 yalign 0.5
 
     bar:
         bar_vertical True
-        value cynthia_stats
+        value randall_stats
         range 10
         xalign 0.82
         yalign 0.5

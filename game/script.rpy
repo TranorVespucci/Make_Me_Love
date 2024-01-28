@@ -197,37 +197,94 @@ label start:
     hide i_cupid mischievous
 
     # Pong Gameplay Starts!
-    Narrator "This is where the Pong will be inserted"
+    
+    window hide
+    $ quick_menu = False
+
+    call screen pong(opponent = "Cupid", backdrop = "bg classroom", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
+
+    $ quick_menu = True
+    window show
+
+    show i_cupid neutral
+
+    if _return == opponent:
+    
+        Narrator "Heat makes its electrifying way through my body until my cheeks turn red and my heart starts beating wildly."
+        Narrator "I smile, unsure how to react to this feeling.\n
+                Even though I want to prove him wrong, I have to admit that he is very good at what he is doing."
+        Narrator "His smile softens and radiates such a pleasant sense of security that I melt away."
+
+        cupid "Don't be sad my dear. It's no shame to get seduced by the god of love"
+
+        show i_cupid laughing
+        with dissolve
+
+        cupid "Well, I have to admit this is not the most realistic scenario to prove your point."
+        cupid "So let's make a deal."
+
+        show i_cupid neutral
+
+        cupid "We'll meet again in a week."
+
+        show i_cupid mischievous
+
+        cupid "If you've fallen in love by then, you have to admit that I was right and know more about the ways of love."
+
+        show i_cupid laughing
+
+        cupid "If that's not the case, too bad for you, but you've proved to the god of love that he too is not done with learning."
+        cupid "And of course, you can claim that you have won against a god."
+
+        Me "There is something you are not telling me. What's the catch?"
+
+        cupid "Well maybe I'll sprinkle a bit of my magic here and there to make things more interesting,"
+
+        show i_cupid mischievous
+
+        extend "but that won't be a problem for you my dear, right?"
+
+        Narrator "His grip on my mind seems to tighten all at once, because all I want to do is agree with him and make him happy."
+        Narrator "It's as if my head is moving and nodding on its own, as if in a trance. The smile he gave me in response made me completely lose touch with reality."
+
+        cupid "Good girl."
+        cupid "I'm really looking forward to our little bet. Surprise me."
+
+        show screen loveStatButton
+
 
     # if the Player wins
-    show i_cupid blushing
+    else:
+   
+        show i_cupid blushing
 
-    Narrator "His face brightened in a smile that melted my heart."
+        Narrator "His face brightened in a smile that melted my heart."
 
-    cupid "Well it looks like you know more about the techniques of seduction than you wanted to admit before"
-    cupid "if you can even beat the god of love in his own game."
+        cupid "Well it looks like you know more about the techniques of seduction than you wanted to admit before"
+        cupid "if you can even beat the god of love in his own game."
 
-    hide i_cupid blushing
-    show i_cupid mischievous
+        hide i_cupid blushing
+        show i_cupid mischievous
 
-    cupid "I can't really let that go."
+        cupid "I can't really let that go."
 
-    hide i_cupid mischievous
-    show i_cupid blushing
+        hide i_cupid mischievous
+        show i_cupid blushing
 
-    cupid "I have to say I'm impressed. You make me want to prove myself."
+        cupid "I have to say I'm impressed. You make me want to prove myself."
 
-    hide i_cupid blushing
-    show i_cupid mischievous
+        hide i_cupid blushing
+        show i_cupid mischievous
 
-    cupid "What do you think about a little bet?"
+        cupid "What do you think about a little bet?"
 
-    Narrator "Heat makes its electrified way through my body. It must have something to do with his magic!"
+        Narrator "Heat makes its electrified way through my body. It must have something to do with his magic!"
+
+        show screen loveStatButton
+        show screen loveStats
 
 
-
-    # if the player loses
-
+    Narrator "that's it for now."
 
 
     # show screen loveStatButton
