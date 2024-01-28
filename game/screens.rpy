@@ -1616,38 +1616,50 @@ screen loveStatButton:
         yalign 0.0
         xoffset -30
         yoffset 30
-        idle "heart.png"
+        idle "heart icon.png"
         action ShowMenu("loveStats")
 
 screen loveStats:
     add Solid("#000c")
     bar:
         bar_vertical True
+        top_bar "bottom new.png"
+        bottom_bar "top new.png"
+        thumb "bar cursor.png"
+       
         value zayn_stats
         range 10
         xalign 0.3
         yalign 0.5
-        xysize(35, 500)
+        xysize(82, 500)
 
     add "zayn silhouette" xysize(427, 498) xalign 0.15 yalign 0.5
 
     bar:
         bar_vertical True
+        top_bar "bottom new.png"
+        bottom_bar "top new.png"
+        thumb "bar cursor.png"
+        
         value cynthia_stats
         range 10
-        xalign 0.56
+        xalign 0.55
         yalign 0.5
-        xysize(35, 500)
+        xysize(82, 500)
 
     add "cynthia silhouette" xysize(447, 498) xalign 0.45 yalign 0.5
 
     bar:
+        top_bar "bottom new.png"
+        bottom_bar "top new.png"
         bar_vertical True
+        thumb "bar cursor.png"
+        
         value randall_stats
         range 10
-        xalign 0.82
+        xalign 0.83
         yalign 0.5
-        xysize(35, 500)
+        xysize(82, 500)
 
     add "zayn silhouette" xysize(427, 498) xalign 0.80 yalign 0.5
 
@@ -1656,5 +1668,5 @@ screen loveStats:
         yalign 0.0
         xoffset -30
         yoffset 30
-        idle "heart.png"
+        idle "heart icon.png"
         action Return()
