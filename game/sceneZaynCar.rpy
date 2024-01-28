@@ -95,6 +95,8 @@ show i_zayn neutral
 
 if _return == opponent: #loose
 
+    $ zayn_stats += 1
+
     Me "Thank you for your selfless sacrifice."
     Me "You are certainly a tastier dessert than I am. So I can just walk away relaxed."
 

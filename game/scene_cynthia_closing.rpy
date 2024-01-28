@@ -97,6 +97,8 @@ label scene_cynthia_closing:
     window show
 
     if _return == opponent:
+        $ cynthia_stats += 1
+
         Narrator "I have to laugh at that- it’s very on the nose, but her boldness is both amusing and… Well…"
         Narrator "Ok, yea, it’s hot. "
 

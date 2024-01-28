@@ -1637,7 +1637,7 @@ screen loveStats:
         thumb "bar cursor.png"
         thumb_offset 41.5
         value zayn_stats
-        range 10
+        range 2
         xalign 0.3
         yalign 0.56
         xysize(82, 418)
@@ -1658,7 +1658,7 @@ screen loveStats:
         thumb "bar cursor.png"
         thumb_offset 41.5
         value cynthia_stats
-        range 10
+        range 2
         xalign 0.55
         yalign 0.56
         xysize(82, 418)
@@ -1678,7 +1678,7 @@ screen loveStats:
         thumb "bar cursor.png"
         thumb_offset 41.5
         value randall_stats
-        range 10
+        range 2
         xalign 0.83
         yalign 0.56
         xysize(82, 418)

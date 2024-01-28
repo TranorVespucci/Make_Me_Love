@@ -236,6 +236,8 @@ hide i_cynthia laughing
 
 if _return == opponent:
     
+    $ cynthia_stats += 1
+
     Narrator "I can’t help myself- I let out a snort and full belly laugh – something about that sentence made everything from today boil over and I think I’ve fully snapped."
     Narrator "This is just stupid Cupid. I need to get to work."
 

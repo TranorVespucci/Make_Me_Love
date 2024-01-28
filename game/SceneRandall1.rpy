@@ -189,6 +189,8 @@ label scene_randall_1:
 
     if _return == opponent:
 
+        $ randall_stats += 1
+
         show i_randall neutral
 
         Narrator "A Pun. Why. Why does that work on me."
