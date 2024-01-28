@@ -171,7 +171,7 @@ show i_randall normal blushing
 
 Narrator "I’m still waving him as he stumbles in the bus, almost falling when the driver begins moving just before he sits down-"
 
-show i_randall normal blushing at left:
+show i_randall normal blushing at left
 
 show i_cupid mischievous:
     xalign 0.7 yalign 1.0
