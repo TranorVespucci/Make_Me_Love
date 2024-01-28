@@ -237,35 +237,6 @@ label start:
         cupid "Well, I have to admit this is not the most realistic scenario to prove your point."
         cupid "So let's make a deal."
 
-        show i_cupid neutral
-
-        cupid "We'll meet again in a week."
-
-        show i_cupid mischievous
-
-        cupid "If you've fallen in love by then, you have to admit that I was right and know more about the ways of love."
-
-        show i_cupid laughing
-
-        cupid "If that's not the case, too bad for you, but you've proved to the god of love that he too is not done with learning."
-        cupid "And of course, you can claim that you have won against a god."
-
-        Me "There is something you are not telling me. What's the catch?"
-
-        cupid "Well maybe I'll sprinkle a bit of my magic here and there to make things more interesting,"
-
-        show i_cupid mischievous
-
-        extend " but that won't be a problem for you my dear, right?"
-
-        Narrator "His grip on my mind seems to tighten all at once, because all I want to do is agree with him and make him happy."
-        Narrator "It's as if my head is moving and nodding on its own, as if in a trance. The smile he gave me in response made me completely lose touch with reality."
-
-        cupid "Good girl."
-        cupid "I'm really looking forward to our little bet. Surprise me."
-
-        show screen loveStatButton
-
 
     # if the Player wins
     else:
@@ -295,14 +266,39 @@ label start:
         Narrator "Heat makes its electrified way through my body. It must have something to do with his magic!"
 
         show screen loveStatButton
-        show screen loveStats
 
 
-    Narrator "that's it for now."
+    show i_cupid neutral
+
+    cupid "We'll meet again in a week."
+
+    show i_cupid mischievous
+
+    cupid "If you've fallen in love by then, you have to admit that I was right and know more about the ways of love."
+
+    show i_cupid laughing
+
+    cupid "If that's not the case, too bad for you, but you've proved to the god of love that he too is not done with learning."
+    cupid "And of course, you can claim that you have won against a god."
+
+    Me "There is something you are not telling me. What's the catch?"
+
+    cupid "Well maybe I'll sprinkle a bit of my magic here and there to make things more interesting,"
+
+    show i_cupid mischievous
+
+    extend " but that won't be a problem for you my dear, right?"
+
+    Narrator "His grip on my mind seems to tighten all at once, because all I want to do is agree with him and make him happy."
+    Narrator "It's as if my head is moving and nodding on its own, as if in a trance. The smile he gave me in response made me completely lose touch with reality."
+
+    cupid "Good girl."
+    cupid "I'm really looking forward to our little bet. Surprise me."
+
+    show screen loveStatButton
 
     jump scene_randall_1
 
-    jump scene2
 
     # show screen loveStatButton
 

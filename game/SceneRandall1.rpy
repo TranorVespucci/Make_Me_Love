@@ -161,6 +161,7 @@ label scene_randall_1:
     mystery_randall "Randall."
     mystery_randall "I mean-"
 
+    hide i_mysteryR
     show i_randall blushing
 
     randall "I, me, I'm Randall."
