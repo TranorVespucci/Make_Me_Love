@@ -201,7 +201,7 @@ label start:
     window hide
     $ quick_menu = False
 
-    call screen pong(opponent = "Cupid", backdrop = "bg classroom", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
+    call screen pong(opponent = "Cupid", backdrop = "bar dark", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
 
     $ quick_menu = True
     window show
