@@ -95,6 +95,132 @@ label scene_randall_1:
     Narrator "I decide to take up and occupy the last remaining space on the bench that isn’t taken up by the ever-increasing number of letter-stacks. "
     Narrator "The mystery Mailman is still crouching on the floor organizing his delivery when he starts grinning to himself sheepishly, the kind you get when remembering a joke you made and still quote to this day from childhood."
 
+    show i_randall mischievous
+
+    mystery_randall "I ought to thank you really."
+    
+    Narrator "I stop playing with the rim of a letter absent-mindedly as my sense of curiosity overrides my shyness."
+
+    Me "What do you mean?"
+
+    show i_randall neutral
+
+    Narrator "He smiles, now him averting my gaze- though I doubt out of shyness. He seems more confident than I- I think?"
+
+    show i_randall laughing
+
+    mystery_randall "Well I was in such a rush earlier, I kinda messed up the sorting system for these- So now I have a chance to actually do it right."
+
+    show i_randall neutral
+
+    Me "Aren’t you still in a rush though? I mean, I’m not really one to judge in this situation, but you didn’t really give off “taking my time”-kinda vibes."
+
+    Narrator "For a second I think he is too absorbed in his work to have heard me until he responds- without looking up."
+
+    mystery_randall "I wasn’t really in a necessary rush- I just tried to get home early before my next shift."
+
+    Narrator "He assigns the last of his letters and looks up to meet my gaze."
+
+    Narrator "The suddenly arisen attention makes it hit more intensely than any previous moment had. And this time- I’m too frozen, to caught off-guard to be able to look away."
+
+    show i_randall blushing
+
+    mystery_randall "I’m pretty sure I still have more than enough time left"
+
+    Narrator "He then reaches over and gently takes the final remaining letter out of my hand and puts it slowly onto a last remaining pile."
+    Narrator "For a moment we just stay that way."
+    Narrator "It feels peaceful. Just simple and like all is well."
+    Narrator "Ok, Cupid. This might be more difficult than anticipated…"
+
+    show i_randall neutral
+
+    Narrator "I suddenly stand up, desperately trying to shake off this weird love magic trick that’s being played on me. It’s just magic."
+
+    Me "Well I AM actually in a rush, so I should get going."
+
+    Narrator "The Mailman stands up surprised, seemingly catching himself and getting a bit embarrassed for getting side-tracked."
+
+    mystery_randall "Oh yea you should probably get going then-"
+
+    Narrator "He haphazardly stands up and starts grabbing the stacks of mail and storing them more clumsily than swiftly in the bag."
+
+    mystery_randall "-I also should get going in a minute anyway. I mean, I do have time still, but I do still have a shift coming up, and if I can manage to get some more work done on my portfolio that would be good-"
+
+    Narrator "Whilst the picking up of the last pile of mail is successful, amidst his rambling the Mailman loses his grip, and the pile threatens to fall."
+
+    show i_randall blushing
+
+    Narrator "With a swift swoop, I manage to grab the pile just in time that it doesn’t fall. My hands instinctively clasp around both the envelopes, as well as the Fingers enveloping parts of them."
+    Narrator "We stand there for a moment, lingering."
+    Narrator "Staring at first at the stack of envelopes, and then at each other."
+    Narrator "I’m suddenly aware of just how close we’re standing… \n
+                He smells of Citrus and Sandalwood, crisp and warm."
+    Narrator "My breathing feels laboured and straining, and if I hadn’t just been persuaded not to meddle with the games of Gods, I’d pray for him not to notice the sweatiness of my palms or hear the obnoxious drumming of my heart."
+    Narrator "He catches himself apparently as his smile widens warmly."
+
+    mystery_randall "Randall."
+    mystery_randall "I mean-"
+
+    randall "I, me, I'm Randall."
+
+    Narrator "..."
+    Narrator "Shit. He’s adorable."
+
+    Me "Leyla."
+
+    show i_randall laughing
+
+    Narrator "Randal takes over the pile of letters and carefully parks it within the bag, laughing off his now apparent awkwardness."
+
+    randall "Well Layla, I know you need to run but… I hope to run into you again sometime."
+
+    window hide
+    $ quick_menu = False
+
+    call screen pong(opponent = "Randall", backdrop = "street dark", opponent_pic = "tranor idle")
+
+    $ quick_menu = True
+    window show
+
+    if _return == opponent:
+
+        show i_randall neutral
+
+        Narrator "A Pun. Why. Why does that work on me."
+
+        Me "I... I hope so too. See ya, Randall."
+
+        Narrator "He looks down shyly at the pavement, collecting his bag once again, not being able to hide his grin."
+
+        randall "See you, Leyla."
+
+        Narrator "I look back at him sheepishly and walk off toward the bar."
+
+        jump scene2
+
+    else:
+
+        show i_randall blushing
+
+        Narrator "I laugh at his joke politely. Ah yes, because he ran into me, and then the run and the… Yep. Hilarious."
+
+        Me "Yep, maybe. Nice to meet you Randall, see ya around!"
+
+        Narrator "He looks down shyly at the pavement, collecting his bag once again."
+
+        show i_randall neutral
+
+        randall "I hope so. See you, Layla."
+
+        Narrator "I smile politely but my may way, with increasing haste into the crowd, hoping to get away before these random man’s awkward charms affect me any further."
+
+        jump scene2
+
+
+
+
+
+
 
 
 

@@ -29,7 +29,7 @@ image i_zayn blushing= At('zayn blushing', sprite_highlight('zayn'))
 image i_randall neutral = At('tranor idle', sprite_highlight('randall'))
 image i_randall mischievous = At('tranor idle', sprite_highlight('randall'))
 image i_randall laughing = At('tranor idle', sprite_highlight('randall'))
-image i_randall blbushing = At('tranor idle', sprite_highlight('randall'))
+image i_randall blushing = At('tranor idle', sprite_highlight('randall'))
 
 #Becky
 image i_becky neutral= At('becky silhouette', sprite_highlight('becky'))
@@ -299,6 +299,8 @@ label start:
     Narrator "that's it for now."
 
     jump scene_randall_1
+
+    jump scene2
 
     # show screen loveStatButton
 
