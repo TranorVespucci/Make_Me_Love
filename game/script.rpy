@@ -160,7 +160,6 @@ label start:
 
     Me "I think halfway through my brain completely stopped working cause I could swear that you just said that you were a God."
 
-    hide i_cupid neutral
     show i_cupid mischievous
 
     cupid "Not just one God. I am the God you declared to not need just moments ago."
@@ -170,12 +169,10 @@ label start:
 
     Me "For a moment, I was afraid I had said the wrong thing because he didn't answer and just seemed to study me intensely. Then he started to smile."
 
-    hide i_cupid neutral
     show i_cupid laughing
 
     cupid "Do you know the easiest way to make someone fall in love with you? Make them laugh."
 
-    hide i_cupid laughing
     show i_cupid neutral
 
     cupid "Because an honest laugh says a lot more about the person's affection for you than most words could."
@@ -185,7 +182,6 @@ label start:
 
     Narrator "A mischievous grin appeared on his face."
 
-    hide i_cupid neutral
     show i_cupid mischievous
 
     cupid "If you're so certain about it, I'm sure you won't mind if I show you a little sample of my magic."
