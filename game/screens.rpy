@@ -1642,7 +1642,7 @@ screen loveStats:
         yalign 0.56
         xysize(82, 418)
 
-    if met_randall == False:
+    if met_zayn == False:
         add "zayn silhouette" xysize(427, 498) xalign 0.15 yalign 0.5
 
     else:
@@ -1683,11 +1683,11 @@ screen loveStats:
         yalign 0.56
         xysize(82, 418)
 
-    if met_zayn == False:
-        add "zayn silhouette" xysize(427, 498) xalign 0.80 yalign 0.5
+    if met_randall == False:
+        add "randall silhouette" xysize(447, 498) xalign 0.77 yalign 0.5
 
     else:
-        add "zayn neutral" xysize(283, 489) xalign 0.750 yalign 0.5
+        add "randall neutral" xysize(447, 498) xalign 0.750 yalign 0.5
 
     imagebutton:
         xalign 1.0
