@@ -40,7 +40,7 @@ label scene_randall_1:
     #adjust this line later
     Narrator "Right, where I was planning to start planning once more."
 
-    show i_mysteryR
+    show i_mysteryR neutral
 
     mystery_randall "Fu-"
     Narrator "He didn’t seem to be expecting my move either, as our bodies collide with a heavy thunk and we both lose our bearings and fall, inelegantly, onto the concrete."
@@ -51,13 +51,13 @@ label scene_randall_1:
     Narrator "The handsome stranger and I are surrounded by a widely dispersed stack of letters, which, apart from a minor few that were a bit more torn and bent than they probably had been before, seemed relatively unharmed."
     Narrator "I immediately jump to action and crawl around alongside him, stuffing the letters back into the now-empty bag marked with a postal symbol. "
 
-    show i_mysteryR #blushing
+    show i_mysteryR blushing
 
     Narrator "He lets out an awkward chuckle, but the crinkling around his eyes as he smiles is genuine."
 
     mystery_randall "Oh no worries, I shouldn’t have been running anyway- safety hazard and- Ehm- Such."
 
-    show i_mysteryR #neutral
+    show i_mysteryR neutral
 
     Narrator "It is only then that I take a proper look at him. I’ve caught him in a hurry of sorts. His expression strains as he rushes to assemble his stack of letters once more and scans the floor carefully for strays."
     Narrator "But there is also a clarity, a calmness to him. He is in a rush, but he still takes his time to be thorough as he works. He is careful to not inconvenience the other passers-by and apologizes to those rushing by."
@@ -68,7 +68,7 @@ label scene_randall_1:
     Narrator "He is trying to assess if I’m alright, if I got hurt in the fall- and when he clocks me being careful with my wrist, he grimaces in regret."
     Narrator "But when he looks at me and we both are aware of our attention falling upon the other, his brow unfurrows."
 
-    show i_mysteryR #blushing
+    show i_mysteryR blushing
 
     Narrator "When his assessment ends and his worry is dampened, what remains is his gentleness. "
     Narrator "He looks at me with earnestness. A pure look of joyous lightlessness befalls him, and I am forced to look away within the course of just a few seconds, suddenly depicting a heightened interest in assembling these letters"
@@ -77,7 +77,7 @@ label scene_randall_1:
             It feels like an easy choice- like it’s the only natural thing to do, to see and be seen by him."
     Narrator "But I just can’t help myself, I can’t help but avoid his eyes sheepishly, his gaze burns upon me more intensely than the afternoon sun earlier today."
 
-    show i_mysteryR #blushing
+    show i_mysteryR blushing
 
     Narrator "Perhaps if I turn away, my voice will project some amount of confidence."
     Narrator "Ahem. Here goes."
@@ -85,7 +85,7 @@ label scene_randall_1:
     Me "Yeaah, but I definitely could have been more careful as well- I didn’t think to look where I was going, I’m so sorry… How many of these are there, my g-"
     Me "… My goodness."
 
-    show i_mysteryR #laughing
+    show i_mysteryR laughing
 
     Narrator "The man halts his process of stacking up the collected letters into different piles, sorting them by some kind of system that I cannot be bothered to try and discern."
     Narrator "He lets out a hearty laugh that brightens up his entire being. "
@@ -95,7 +95,7 @@ label scene_randall_1:
     Narrator "I decide to take up and occupy the last remaining space on the bench that isn’t taken up by the ever-increasing number of letter-stacks. "
     Narrator "The mystery Mailman is still crouching on the floor organizing his delivery when he starts grinning to himself sheepishly, the kind you get when remembering a joke you made and still quote to this day from childhood."
 
-    show i_mysteryR #mischievous
+    show i_mysteryR mischievous
 
     mystery_randall "I ought to thank you really."
     
@@ -103,15 +103,15 @@ label scene_randall_1:
 
     Me "What do you mean?"
 
-    show i_mysteryR #neutral
+    show i_mysteryR neutral
 
     Narrator "He smiles, now him averting my gaze- though I doubt out of shyness. He seems more confident than I- I think?"
 
-    show i_mysteryR #laughing
+    show i_mysteryR laughing
 
     mystery_randall "Well I was in such a rush earlier, I kinda messed up the sorting system for these- So now I have a chance to actually do it right."
 
-    show i_mysteryR #neutral
+    show i_mysteryR neutral
 
     Me "Aren’t you still in a rush though? I mean, I’m not really one to judge in this situation, but you didn’t really give off “taking my time”-kinda vibes."
 
@@ -123,7 +123,7 @@ label scene_randall_1:
 
     Narrator "The suddenly arisen attention makes it hit more intensely than any previous moment had. And this time- I’m too frozen, to caught off-guard to be able to look away."
 
-    show i_mysteryR #blushing
+    show i_mysteryR blushing
 
     mystery_randall "I’m pretty sure I still have more than enough time left"
 
@@ -132,7 +132,7 @@ label scene_randall_1:
     Narrator "It feels peaceful. Just simple and like all is well."
     Narrator "Ok, Cupid. This might be more difficult than anticipated…"
 
-    show i_mysteryR #neutral
+    show i_mysteryR neutral
 
     Narrator "I suddenly stand up, desperately trying to shake off this weird love magic trick that’s being played on me. It’s just magic."
 
@@ -148,7 +148,7 @@ label scene_randall_1:
 
     Narrator "Whilst the picking up of the last pile of mail is successful, amidst his rambling the Mailman loses his grip, and the pile threatens to fall."
 
-    show i_mysteryR #blushing
+    show i_mysteryR blushing
 
     Narrator "With a swift swoop, I manage to grab the pile just in time that it doesn’t fall. My hands instinctively clasp around both the envelopes, as well as the Fingers enveloping parts of them."
     Narrator "We stand there for a moment, lingering."
@@ -182,7 +182,7 @@ label scene_randall_1:
     window hide
     $ quick_menu = False
 
-    call screen pong(opponent = "Randall", backdrop = "street dark", opponent_pic = "tranor idle")
+    call screen pong(opponent = "Randall", backdrop = "street dark", opponent_pic = "randall mail normal")
 
     $ quick_menu = True
     window show

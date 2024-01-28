@@ -12,7 +12,12 @@ image i_cupid blushing= At('cupid blushing', sprite_highlight('cupid'))
 #mystery Cupid
 image i_mystery mischievous= At('cupid mischievous', sprite_highlight('mystery'))
 
-image i_mysteryR = At('tranor idle', sprite_highlight('mystery_randall'))
+#mystery randall
+image i_mysteryR neutral= At('randall mail normal', sprite_highlight('mystery_randall'))
+image i_mysteryR mischievous = At('randall mail mischivous', sprite_highlight('mystery_randall'))
+image i_mysteryR laughing = At('randall mail laughing', sprite_highlight('mystery_randall'))
+image i_mysteryR blushing = At('randall mail blushing', sprite_highlight('mystery_randall'))
+
 
 #Cynthia
 image i_cynthia neutral= At('cynthia neutral', sprite_highlight('cynthia'))
@@ -28,10 +33,10 @@ image i_zayn blushing= At('zayn blushing', sprite_highlight('zayn'))
 
 #Randall
 
-image i_randall neutral = At('tranor idle', sprite_highlight('randall'))
-image i_randall mischievous = At('tranor idle', sprite_highlight('randall'))
-image i_randall laughing = At('tranor idle', sprite_highlight('randall'))
-image i_randall blushing = At('tranor idle', sprite_highlight('randall'))
+image i_randall neutral = At('randall mail normal', sprite_highlight('randall'))
+image i_randall mischievous = At('randall mail mischivous', sprite_highlight('randall'))
+image i_randall laughing = At('randall mail laughing', sprite_highlight('randall'))
+image i_randall blushing = At('randall mail blushing', sprite_highlight('randall'))
 
 #Becky
 image i_becky neutral= At('becky outline', sprite_highlight('becky'))
@@ -47,6 +52,8 @@ define randall = Character('Randall', image = 'tranor idle', callback=name_callb
 
 #defining mysterious Cupid
 define mystery = Character('???', image='i_cupid', callback=name_callback, cb_name='mystery')
+
+#define mysterious randall
 define mystery_randall = Character('???', image='i_mysteryR', callback=name_callback, cb_name='mystery_randall')
 
 
