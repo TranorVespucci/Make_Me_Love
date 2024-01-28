@@ -18,7 +18,7 @@ init python:
 
 
             # Some displayables we use.
-            self.paddle = Solid("#990202", xsize=self.PADDLE_WIDTH, ysize=self.PADDLE_HEIGHT)
+            self.paddle = Solid("#ffffff", xsize=self.PADDLE_WIDTH, ysize=self.PADDLE_HEIGHT)
             self.ball = Solid("#ffffff", xsize=self.BALL_WIDTH, ysize=self.BALL_HEIGHT)
 
             # If the ball is stuck to the paddle.
@@ -193,9 +193,9 @@ screen pong(opponent, backdrop, opponent_pic):
 
     add Solid("#000c")
 
-    add "ping ui"
-
     add opponent_pic xalign 1.0 yalign 1.0
+
+    add "ping ui"
 
     add pong
 
