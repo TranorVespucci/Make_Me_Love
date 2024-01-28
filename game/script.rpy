@@ -18,6 +18,11 @@ image i_mysteryR mischievous = At('randall mail mischivous', sprite_highlight('m
 image i_mysteryR laughing = At('randall mail laughing', sprite_highlight('mystery_randall'))
 image i_mysteryR blushing = At('randall mail blushing', sprite_highlight('mystery_randall'))
 
+#mystery cynthia
+image i_mysteryC neutral= At('cynthia neutral', sprite_highlight('mystery_cynthia'))
+image i_mysteryC mischievous = At('cynthia mischievous', sprite_highlight('mystery_cynthia'))
+image i_mysteryC laughing = At('cynthia laughing', sprite_highlight('mystery_cynthia'))
+image i_mysteryC blushing = At('cynthia blushing', sprite_highlight('mystery_cynthia'))
 
 #Cynthia
 image i_cynthia neutral= At('cynthia neutral', sprite_highlight('cynthia'))
@@ -55,6 +60,9 @@ define mystery = Character('???', image='i_cupid', callback=name_callback, cb_na
 
 #define mysterious randall
 define mystery_randall = Character('???', image='i_mysteryR', callback=name_callback, cb_name='mystery_randall')
+
+#define mysterious cynthia
+define mystery_cynthia = Character('???', image='i_mysteryC', callback=name_callback, cb_name='mystery_cynthia')
 
 
 define met_randall = False

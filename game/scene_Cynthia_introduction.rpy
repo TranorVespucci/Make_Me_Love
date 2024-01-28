@@ -56,7 +56,7 @@ Narrator "That’s when I hear from behind me a smooth, but assertive voice."
 
 show i_cynthia neutral #mystery
 
-cynthia "Excuse the long wait sir, I was beside myself. That’ll be her order and an Oak Latte for me too please"
+mystery_cynthia "Excuse the long wait sir, I was beside myself. That’ll be her order and an Oak Latte for me too please"
 
 Narrator "I turn around to seek the origin of these words and see a gorgeous woman in what seems to be a business get-up with immense personal flare."
 Narrator "The vendor still doesn’t seem amused by this situation, but he refreshes his customer-service-face."
@@ -74,7 +74,7 @@ Narrator "There is something so – impressive about the way she holds herself."
 Narrator "She projects as if she has other, more important places to be – but not in a dismissive or demeaning way."
 Narrator "She just… emmates importance."
 
-cynthia "Thank you very much sir, you too!"
+mystery_cynthia "Thank you very much sir, you too!"
 
 Narrator "…I was too focused to notice her order being finished up. My breath catches in my throat, as I try to awaken quickly, to not lose the chance to thank her for her action. "
 Narrator "It’s only now that I truly realize what happens and I am wrecked with guilt that I was too busy staring at this woman to remember to decline her offer to pay for me."
@@ -90,7 +90,7 @@ show i_cynthia mischievous
 
 Narrator "Whilst my thoughts are running wild, she smiles at me gently but more in the way of referring toward me in conversation with the vendor."
 
-cynthia "We will do that in a minute, we should first make some space to that this kind man can continue his work, right?"
+mystery_cynthia "We will do that in a minute, we should first make some space to that this kind man can continue his work, right?"
 
 Narrator "It’s worded like a question, but I know it isn’t."
 Narrator "She takes my arm firmly but not with aggression or too much pressure, just enough to be assertive and take me out of the cue with her, toward a protruding ledge at the base of shop window to the romantic little bookstore."
@@ -102,7 +102,7 @@ Narrator "She seems to want to take the lead, and I’m all to happy to give it 
 
 show i_cynthia laughing
 
-cynthia "Well, that was adorable."
+mystery_cynthia "Well, that was adorable."
 Narrator "I’m struck by her directness as she laughs to herself, sharp but affectionate, leading her neon pink cup to her lips."
 Narrator "Our cups are pink. "
 Narrator "Were the other cups pink too?"
@@ -120,7 +120,7 @@ cynthia "My name is Cynthia."
 
 $ met_cynthia = True
 
-cynthia "There"
+cynthia "There."
 cynthia "That’s easy, isn’t it? My name is – and then you insert your own name so that the other person knows who they have the pleasure of meeting. Try it."
 
 Narrator "I decide to take my chances on having a voice when I begin to speak."
