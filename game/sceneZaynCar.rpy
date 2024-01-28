@@ -6,6 +6,8 @@ $ quick_menu = False
 scene street dark
 with Dissolve(3.0)
 
+play music "dialogue_song.mp3" loop
+
 $ renpy.pause()
 
 $ quick_menu = True
@@ -86,10 +88,18 @@ zayn "Come let's get you to work. I´ll chase away the pigeons for you if they t
 window hide
 $ quick_menu = False
 
+stop music
+
+play music "pong_song.mp3" loop
+
 call screen pong(opponent = "Zayn", backdrop = "street dark", opponent_pic = "zayn neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
 
 $ quick_menu = True
 window show
+
+stop music
+
+play music "dialogue_song.mp3" loop
 
 show i_zayn neutral
 
@@ -131,7 +141,7 @@ else:
     Narrator "He managed to completely wipe my mind."
     Narrator "I nodded briefly and started walking in any direction, regardless of whether it was the right one."
 
-
+stop music fadeout 1.0
 
 jump scene_cynthia_closing
 

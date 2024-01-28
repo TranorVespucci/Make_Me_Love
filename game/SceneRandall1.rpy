@@ -6,6 +6,8 @@ label scene_randall_1:
     scene street bright
     with fade
 
+    play music "dialogue_song.mp3" loop fadein 1.0
+
     $ renpy.pause()
 
     $ quick_menu = True
@@ -182,7 +184,15 @@ label scene_randall_1:
     window hide
     $ quick_menu = False
 
+    stop music
+
+    play music "pong_song.mp3" loop
+
     call screen pong(opponent = "Randall", backdrop = "street dark", opponent_pic = "randall mail normal")
+
+    stop music
+
+    play music "dialogue_song.mp3" loop
 
     $ quick_menu = True
     window show

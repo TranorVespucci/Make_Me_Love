@@ -6,6 +6,8 @@ label scene_cynthia_closing:
     scene bar bright
     with fade
 
+    play music "bar_song.mp3" loop
+
     $ renpy.pause()
 
     $ quick_menu = True
@@ -91,7 +93,15 @@ label scene_cynthia_closing:
     window hide
     $ quick_menu = False
 
+    stop music
+
+    play music "pong_song.mp3" loop
+
     call screen pong(opponent = "Cynthia", backdrop = "bar bright", opponent_pic = "cynthia neutral")
+
+    stop music
+
+    play music "bar_song.mp3" loop
 
     $ quick_menu = True
     window show

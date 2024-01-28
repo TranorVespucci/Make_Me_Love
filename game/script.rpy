@@ -117,6 +117,8 @@ label start:
     scene street dark:
         alpha 3
 
+    play music "dialogue_song.mp3" loop
+
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
@@ -246,12 +248,20 @@ label start:
     window hide
     $ quick_menu = False
 
+    stop music fadeout 1.0
+
+    play music "pong_song.mp3" loop
+
     call screen pong(opponent = "Cupid", backdrop = "bar dark", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
 
     $ quick_menu = True
     window show
 
+    stop music fadeout 1.0
+
     show i_cupid neutral
+
+    play music "dialogue_song.mp3" fadein 1.0
 
     if _return == opponent:
     
@@ -326,6 +336,8 @@ label start:
     cupid "I'm really looking forward to our little bet. Surprise me."
 
     show screen loveStatButton
+
+    stop music fadeout 1.0
 
     jump scene_randall_1
 

@@ -6,6 +6,8 @@ $ quick_menu = False
 scene bar bright
 with Dissolve(3.0)
 
+play music "bar_song.mp3" loop
+
 $ renpy.pause()
 
 $ quick_menu = True
@@ -228,11 +230,18 @@ cynthia "You know, I’m pretty sure you’re gorgeous beyond the legal limit. H
 window hide
 $ quick_menu = False
 
+stop music
+
+play music "pong_song.mp3" loop
+
 call screen pong(opponent = "Cynthia", backdrop = "bar dark", opponent_pic = "cynthia neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
+
+stop music
+
+play music "dialogue_song.mp3" loop
 
 $ quick_menu = True
 window show
-hide i_cynthia laughing
 
 if _return == opponent:
     
@@ -319,6 +328,8 @@ else: #Win
     Narrator "But what if it isn’t real. If she only did that because of the magic?"
     Narrator "Can I allow myself to trust any feelings I have tonight."
     Narrator "With this incredibly positive thought on the forefront of my mind, I make my way toward my shift."
+
+    stop music fadeout 1.0
 
     jump scene_Zayn_Car
 
