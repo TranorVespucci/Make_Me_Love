@@ -36,7 +36,7 @@ image i_becky neutral= At('nena', sprite_highlight('becky'))
 
 #Defining these Characters
 define Narrator = Character(callback=name_callback, cb_name=None,)
-define Me = Character('Me', callback=name_callback, cb_name=None, color="#ffffff")
+define Me = Character('Layla', callback=name_callback, cb_name=None, color="#ffffff")
 define cupid = Character('Cupid', image='i_cupid', callback=name_callback, cb_name='cupid', color="#ffffff")
 define cynthia = Character('Cynthia', image='i_cynthia', callback=name_callback, cb_name='cynthia', color="#ffffff")
 define zayn = Character('Zayn', image='i_zayn', callback=name_callback, cb_name='zayn', color="#ffffff")
