@@ -1617,6 +1617,13 @@ screen loveStatButton:
         xoffset -30
         yoffset 30
         idle "heart icon.png"
+        hover Composite(
+            (224, 200),
+            (-7, -18), "heart icon activated.png",
+            (-7, -18), "heart icon glow.png",
+            (0, 0), "heart icon.png"
+        )
+
         action ShowMenu("loveStats")
 
 screen loveStats:
@@ -1688,4 +1695,10 @@ screen loveStats:
         xoffset -30
         yoffset 30
         idle "heart icon.png"
+        hover Composite(
+            (224, 200),
+            (-7, -18), "heart icon activated.png",
+            (-7, -18), "heart icon glow.png",
+            (0, 0), "heart icon.png"
+        )
         action Return()
