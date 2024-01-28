@@ -29,12 +29,12 @@ image i_zayn blushing= At('zayn blushing', sprite_highlight('zayn'))
 image i_becky neutral= At('nena', sprite_highlight('becky'))
 
 #Defining these Characters
-define Narrator = Character(callback=name_callback, cb_name=None)
-define Me = Character('Me', callback=name_callback, cb_name=None)
-define cupid = Character('Cupid', image='i_cupid', callback=name_callback, cb_name='cupid')
-define cynthia = Character('Cynthia', image='i_cynthia', callback=name_callback, cb_name='cynthia')
-define zayn = Character('Zayn', image='i_zayn', callback=name_callback, cb_name='zayn')
-define becky = Character('Becky', image='i_becky', callback=name_callback, cb_name='becky')
+define Narrator = Character(callback=name_callback, cb_name=None,)
+define Me = Character('Me', callback=name_callback, cb_name=None, color="#ffffff")
+define cupid = Character('Cupid', image='i_cupid', callback=name_callback, cb_name='cupid', color="#ffffff")
+define cynthia = Character('Cynthia', image='i_cynthia', callback=name_callback, cb_name='cynthia', color="#ffffff")
+define zayn = Character('Zayn', image='i_zayn', callback=name_callback, cb_name='zayn', color="#ffffff")
+define becky = Character('Becky', image='i_becky', callback=name_callback, cb_name='becky', color="#ffffff")
 
 #defining mysterious Cupid
 define mystery = Character('???', image='i_cupid', callback=name_callback, cb_name='mystery')

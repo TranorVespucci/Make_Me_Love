@@ -25,7 +25,7 @@ define config.check_conflicting_properties = True
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#ff0000'
+define gui.accent_color = '#6d4948'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#888888'
@@ -35,7 +35,7 @@ define gui.idle_color = '#888888'
 define gui.idle_small_color = '#ffffff'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#ff0000'
+define gui.hover_color = '#6d4948'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
@@ -47,7 +47,7 @@ define gui.insensitive_color = '#8888887f'
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
 define gui.muted_color = '#003d51'
-define gui.hover_muted_color = '#ff0000'
+define gui.hover_muted_color = '#6d4948'
 
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = '#ffffff'
@@ -133,7 +133,7 @@ define gui.dialogue_xpos = 0.5
 define gui.dialogue_ypos = 0
 
 style default:
-    outlines [ (absolute(1), "#6d4948", absolute(0), absolute(0)) ]
+    outlines [ (absolute(1), "#5c3e3d", absolute(0), absolute(0)) ]
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
