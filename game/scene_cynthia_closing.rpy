@@ -3,10 +3,10 @@ label scene_cynthia_closing:
     window hide
     $ quick_menu = False
 
-    scene bar bright
+    scene street night
     with fade
 
-    play music "bar_song.mp3" loop
+    play music "dialogue_song.mp3" loop
 
     $ renpy.pause()
 
