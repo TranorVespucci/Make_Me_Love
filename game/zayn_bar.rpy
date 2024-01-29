@@ -244,7 +244,7 @@ label scene_zayn_bar:
         Narrator "His sarcastic undertone annoys but I can´t help but let myself fall into his grip."
 
     
-    jump scene_cynthia_closing
+    jump scene_over_zayn_bar
 
 
 

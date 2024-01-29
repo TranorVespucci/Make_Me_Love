@@ -213,7 +213,7 @@ label scene_randall_1:
 
         Narrator "I look back at him sheepishly and walk off toward the bar."
 
-        jump scene_cynthia_introduction
+       
 
     else:
 
@@ -231,7 +231,8 @@ label scene_randall_1:
 
         Narrator "I smile politely but my may way, with increasing haste into the crowd, hoping to get away before these random man’s awkward charms affect me any further."
 
-        jump scene_cynthia_introduction
+    
+    jump scene_over_randall_1
 
 
 

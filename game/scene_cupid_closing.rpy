@@ -37,5 +37,7 @@ label scene_cupid_closing:
     devs "Hey guys, Gorgeous Gorgeous Görlies here! We made this project withing 3 days at the Global Game Jam, and unfortunately were not able to *quite finish this scene and thereby the little ending scene we want you to have- it’s still in the works! "
     devs "Come back in a couple of days to see if we have the finished version uploaded on itch.io! Thank you soo much for playing, hope to see you soon <3"
 
+    jump scene_over_cupid_closing
+
     return
 

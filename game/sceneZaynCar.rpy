@@ -143,5 +143,5 @@ else:
 
 stop music fadeout 1.0
 
-jump scene_zayn_bar
+jump scene_over_zayn_car
 

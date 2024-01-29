@@ -292,7 +292,7 @@ if _return == opponent:
     Narrator "Can I allow myself to trust any feelings I have tonight."
     Narrator "With this incredibly positive thought on the forefront of my mind, I make my way toward my shift."
 
-    jump scene_Zayn_Car
+    
 
 else: #Win
     Narrator "What am I doing here?"
@@ -331,6 +331,6 @@ else: #Win
 
     stop music fadeout 1.0
 
-    jump scene_Zayn_Car
 
-return
+jump scene_over_cynthia_intro
+

@@ -81,7 +81,7 @@ Narrator "I hear the sound of Randall cursing at something. This man is ridiculo
 window hide
 $ quick_menu = False
 
-stop Music
+stop music
 
 play music "pong_song.mp3" loop
 
@@ -189,6 +189,6 @@ show i_cupid mischievous:
     xalign 0.7 yalign 1.0
 with moveinright
 
-Narrator " when I see, standing by the bus stop an all too familiar face."
+Narrator " when I see, standing by the bus stop, an all too familiar face."
 
-jump scene_cupid_closing
+jump scene_over_randall_closing

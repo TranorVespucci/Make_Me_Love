@@ -344,10 +344,30 @@ label start:
 
     jump scene_randall_1
 
+    label scene_over_randall_1:
 
-    # show screen loveStatButton
+    jump scene_cynthia_introduction
 
+    label scene_over_cynthia_intro:
 
-    # This ends the game.
+    jump scene_Zayn_Car
+
+    label scene_over_zayn_car:
+
+    jump scene_zayn_bar
+
+    label scene_over_zayn_bar:
+
+    jump scene_cynthia_closing
+
+    label scene_over_cynthia_closing:
+
+    jump scene_randall
+
+    label scene_over_randall_closing:
+
+    jump scene_cupid_closing
+
+    label scene_over_cupid_closing:
 
     return
