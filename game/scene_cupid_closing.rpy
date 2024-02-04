@@ -84,6 +84,185 @@ label scene_cupid_closing:
     window show
 
 
+    if _return == opponent or pong_games_won < 7:
+
+        show i_cupid neutral
+
+        Me "...Hilarious."
+
+        cupid "...Hm?"
+
+        Narrator "I cannot contain myself anymore, I fall into a fit of laughter."
+        Narrator "I writhe on the floor, convulsing in spasms of laughter, unable to breathe until I lay there exhausted and with the ghost of a smile on my face."
+        Narrator "My muscles ache."
+
+        cupid "..."
+        cupid "Have you calmed down now?"
+        Narrator "I let out one last, painful chuckle."
+
+        Leyla "... yes."
+
+        Narrator "Cupid nods to himself and starts smirking as he sees an opportunity in his words."
+
+        show i_cupid mischievous
+
+        cupid "Good girl."
+
+        show i_cupid neutral
+
+        cupid "So, you also understand that what happens next, Is up to you?"
+
+        Narrator "He turns to look at me as he says this. His eyes reflect the stars more than they should. "
+        Narrator "They glimmer and flicker within, an entire solar system within his gaze. "
+        Narrator "He’s beautiful."
+        Narrator "And I know that no matter how enchanting he is, he is the only one that I cannot choose."
+        Narrator "Nor do I want to... someone else has caught my eye."
+
+        Me "Yes. Yes I do... I’ll see to it tomorrow."
+
+        cupid "One last thing please..."
+
+        Me "...Hm?"
+
+        Narrator "He looks at me expectantly, increasinly playfully offended as I do not act in the way I am supposed to-"
+        Narrator "Oh."
+        Narrator "Ah, yes. Ugh"
+
+        Me  "I hereby admit that I was wrong about the ways of love."
+        Me "... Is that fine?"
+
+        Narrator "Cupid folds his arms behind his head and gazes proudly into the sky."
+
+        cupid "Hmm yes, yes I suppose that should do."
+
+        Narrator "We lie there for a moment."
+
+        cupid "Good luck, Leyla."
+
+        Narrator "I chuckle to myself, not wanting to quite thank him- his ego is too large, it’s a public safety hazard to do so."
+
+        Me "Fuck off, Cupid."
+
+        Narrator "I trail off in my laughter as I look to my side and..."
+        Narrator "He is gone."
+        Narrator "It is just me, the weirdly clear night sky, and the choice of that comes next..."
+
+        Me "...Fuck."
+        Me "I think my break is over."
+
+        show bg bar dark
+        with Fade(2, 1, 1)
+
+        if zayn_stats < randall_stats > cynthia_stats:
+            show i_randall normal blushing
+            "The person Leyla feels most drawn to after the nights events is Randall!"
+            hide i_randall normal blushing
+
+            "Before her lies a beautiful journey at the side of this person, as they truly get to know one another and figure out the rest of their lives..."
+
+        elif randall_stats < cynthia_stats > zayn_stats:
+            show i_cynthia normal blushing
+            "The person Leyla feels most drawn to after the nights events is Cynthia!"
+            hide i_cynthia normal blushing
+
+            "Before her lies a beautiful journey at the side of this person, as they truly get to know one another and figure out the rest of their lives..."
+
+        elif randall_stats < zayn_stats > cynthia_stats:
+            show i_zayn normal blushing
+            "The person Leyla feels most drawn to after the nights events is Zayn!"
+            hide i_zayn normal blushing
+
+            "Before her lies a beautiful journey at the side of this person, as they truly get to know one another and figure out the rest of their lives..."
+
+
+        else:
+            "The people Leyla feels most drawn to after the night's events are..."
+
+            if (randall_stats > cynthia_stats) and (randall_stats > zayn_stats) or (randall_stats >= 2) :
+                show i_randall normal blushing
+                "Randall."
+                hide i_randall normal blushing
+
+            if (cynthia_stats > randall_stats) and (cynthia_stats > zayn_stats) or (cynthia_stats >= 2):
+                show i_cynthia blushing
+                "Cynthia."
+                hide i_cynthia blushing
+
+            if (zayn_stats > randall_stats) and (zayn_stats > cynthia_stats) or (zayn_stats >= 2):
+                show i_zayn blushing
+                "Zayn"
+                hide i_zayn blushing
+
+            "Before her lies a beautiful journey in which she tries to figure out what she truly wants... but the time to decide remains to be seen another day."
+
+        
+
+    else:
+
+        Me "... Pathetic."
+
+        show i_cupid neutral
+
+        Narrator "Cupid whips his head around to me immediately, genuinely shocked at my words."
+
+        cupid "EXCUSE me?"
+
+        Narrator "I turn to look at him."
+        Narrator "His eyes reflect the stars more than they should. They glimmer and flicker within, an entire solar system within his gaze."
+        Narrator "He's beautiful."
+        Narrator "I liked the others, sure."
+        Narrator "But it’s him I've been longing to see again, all evening."
+        Narrator "I didn’t notice it at first, not until this very moment."
+        Narrator "But the one time i haven’t worried, the onetime i have felt truly, truly at easy and my mind stood still was..."
+        Narrator "...now"
+        Narrator "He looks at me quizzically."
+        Narrator "He can truly not figure out what is happening right now."
+        Narrator "He expected... Something else. He is well and truly surprised and doesn’t understand what I am up to."
+        Narrator "I have bested the god of love."
+
+        Me "Cupid, why did you make that bet with me?"
+
+        Narrator "He looks confused to the point of distress; he sits up and lets his hands run through his hair, his mind running, his eyes darting."
+
+        cupid "What do you mean I..."
+        cupid "You... You challenged me! Yea, I heard you speak ill of me, and I wanted to prove you wrong!"
+        cupid "I grin at him, propping myself up on the side."
+
+        Me "You can’t tell me you’re the God of Love and cannot see romance when it scares you in the face."
+
+        Narrator "I stand up and turn away for a moment, letting him figure himself out."
+        Narrator "When I turn around again, he is... squinting."
+        Narrator "He's still puzzled, but it is more by the nature of the realization he has just made."
+        Narrator "He knows."
+
+        Me "You know, normal people just... Ask their crushes on a date, they don’t chicken out and try to make them ACTIVELY unavailable instead?!"
+
+        show i_cupid blushing
+
+        Narrator "As I speak Cupid begins to marvel at me. The realization is sinking in... He finds relief in understanding. Finally."
+
+        Me "I mean really, what were you hoping to achieve? I don’t know what kinda fucked up dating shows you’re responsible for in your free time, but I prefer not to be used as a prop for someone’s romantic entertainment?!"
+
+        Narrator "He starts to stand up, a grin, not playful like before but earnest and amused emerges slowly."
+
+        Me "Like, if you like someone, tell them, that was pretty much the most confusing social experiments of “why not to have God roam the earth” ..."
+
+        Narrator "His grin widens and his hands cover his face, a shiny row of teeth almost reflecting the starlight above. "
+
+        Me "...Which come to think of it, makes this less of a dating show and more of a document-"
+
+        Narrator "His hands find the side of my face... the small of my back."
+        Narrator "I stare at him, my pulse rising, my vision blurring, my only anchor to this world a waving sky and a man with eyes like starlight."
+        Narrator "His hands are warm, and firm and I am breathless as his face is inches from mine."
+        Narrator "He smells of vanilla, salt, amber and caramel... sweet, rich and intoxicating."
+        Narrator "He's biting his lip and lets out a slow breath that strives over my face like a spring breeze."
+        Narrator "I lean forward and my lips slowly connect with his."
+        Narrator "He leans in, the both of us kissing tenderly..."
+        Narrator "And so we stand there, locked in each other's embrace. "
+        Narrator "In the middle of the starlight street, on the empty road and with the flickering of broken streetlights and neon signs surrounding us."
+        Narrator "Just me and the God of Love."
+
+
 
 
     jump scene_over_cupid_closing
