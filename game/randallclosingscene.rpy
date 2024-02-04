@@ -95,10 +95,16 @@ $ quick_menu = True
 window show
 
 if _return == opponent:
+    
+    $ randall_stats += 1
+
     Narrator "I can barely stifle my laughter as the sounds of something crashing down and tearing something else down with it has a sort of domino effect."
     Narrator "I hear more cursing and frustrated grunts, though they are stifled by the corridor."
     Narrator "I like him."
 else:
+
+    $ pong_games_won += 1
+
     Narrator "It does have a slight charm, being clumsy. But… I’m not attracted to the idea of having to help someone out at all times either?"
 
 Narrator "It takes a few moments but finally, he emerges."

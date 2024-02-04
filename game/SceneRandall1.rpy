@@ -217,6 +217,8 @@ label scene_randall_1:
 
     else:
 
+        $ pong_games_won += 1
+
         show i_randall blushing
 
         Narrator "I laugh at his joke politely. Ah yes, because he ran into me, and then the run and the… Yep. Hilarious."

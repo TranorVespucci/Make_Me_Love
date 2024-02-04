@@ -128,7 +128,9 @@ if _return == opponent: #loose
 
 # if the Player wins
 else:
-   
+    
+    $ pong_games_won += 1
+
     Me "And I would laugh as they spit out your meat again because you are inedible.
     So not much help. Thanks for the offer, but unfortunately I have to decline."
 

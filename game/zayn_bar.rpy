@@ -200,6 +200,9 @@ label scene_zayn_bar:
     play music "bar_song.mp3" loop
 
     if _return == opponent: #loose
+
+        $ zayn_stats += 1
+
         Narrator "I open my mouth, but nothing comes out of it."
 
         Narrator "Not sure if frustrated over his win or week of his gaze I turn down my eyes and try to slow my heartbeat."
@@ -230,6 +233,8 @@ label scene_zayn_bar:
 
 
     else:
+
+        $ pong_games_won += 1
 
         Me "Don't be so sure of yourself. It's just really warm inside here. Fine."
 

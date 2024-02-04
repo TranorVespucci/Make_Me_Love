@@ -32,10 +32,59 @@ label scene_cupid_closing:
 
     cupid "Oh Leyla, of course I did- you made it so very, very entertaining."
 
-    scene bar bright with Fade(0.5, 1.0, 0.5, color = '#ffffff')
+    Narrator "Cupid teases as he comes to a halt and laying down on the floor, in the middle of the street."
 
-    devs "Hey guys, Gorgeous Gorgeous Görlies here! We made this project withing 3 days at the Global Game Jam, and unfortunately were not able to *quite finish this scene and thereby the little ending scene we want you to have- it’s still in the works! "
-    devs "Come back in a couple of days to see if we have the finished version uploaded on itch.io! Thank you soo much for playing, hope to see you soon <3"
+    show i_cupid mischievous
+
+    Narrator "He raises his hand to make a gesture, lazily beckoning me to join him at his side."
+    Narrator "And so I do."
+    Narrator "And so... there we lie. Under the weirdly clear sky..."
+    Narrator "For the first time of the entire day I am not overwhelmed, I am not scared or confused or worried."
+    Narrator "I just am."
+    Narrator "Staring into the stars, I can feel it all so clearly now."
+    Narrator "My feelings are my own."
+    Narrator "Their feelings were their own."
+
+    show i_cupid neutral
+
+    cupid "I assume you understand now?"
+
+    Narrator "I don’t look over at him when he speaks, I close my eyes instead."
+
+    Me "I do."
+
+    cupid "Not even I have power over love, Leyla."
+    cupid "I can observe it, I can find those who would feel it for each other and bring them together, but even the Gods can’t control what a Mortal can feel..."
+    
+    Narrator "He lets out a dramatically tragic sigh."
+
+    cupid "Not even me!"
+
+    show i_cupid laughing
+
+    Narrator "This."
+    Narrator "All of this- all day, it was all- "
+    Narrator "He never controlled Love; he could only bring us all together through circumstances and... what... fate?"
+    Narrator "That's..."
+
+    window hide
+    $ quick_menu = False
+
+    stop music
+
+    play music "pong_song.mp3" loop
+
+    call screen pong(opponent = "Cupid", backdrop = "street dark", opponent_pic = "cupid neutral") with Fade(0.5, 1.0, 0.5, color = '#fff')
+
+    stop music
+
+    play music "dialogue_song.mp3" loop
+
+    $ quick_menu = True
+    window show
+
+
+
 
     jump scene_over_cupid_closing
 

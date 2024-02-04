@@ -295,6 +295,8 @@ if _return == opponent:
     
 
 else: #Win
+    $ pong_games_won += 1
+
     Narrator "What am I doing here?"
 
     show i_cynthia neutral

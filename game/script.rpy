@@ -83,6 +83,8 @@ define met_randall = False
 define met_cynthia = False
 define met_zayn = False
 
+define pong_games_won = 0
+
 
 default opponent = "Opponent"
 default backdrop = "bg classroom"
@@ -284,7 +286,8 @@ label start:
 
     # if the Player wins
     else:
-   
+        $ pong_games_won += 1
+        
         show i_cupid blushing
 
         Narrator "His face brightened in a smile that melted my heart."

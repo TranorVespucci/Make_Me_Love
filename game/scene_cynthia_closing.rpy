@@ -122,6 +122,8 @@ label scene_cynthia_closing:
 
 
     else:
+        $ pong_games_won += 1
+
         Narrator "I chuckle, but more out of politeness and less because I find it funny… "
         Narrator "I think she can sense that it wasn’t genuine because she gets a bit quieter but doesn’t slump together out of insecurity. "
         Narrator "She’s funny that way- she can get shy, but out of vulnerability I feel and less out of an awkwardness with herself… She’s… yea. I don’t know. She intrigues me. "
