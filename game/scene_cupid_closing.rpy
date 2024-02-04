@@ -100,7 +100,7 @@ label scene_cupid_closing:
         cupid "Have you calmed down now?"
         Narrator "I let out one last, painful chuckle."
 
-        Leyla "... yes."
+        Me "... yes."
 
         Narrator "Cupid nods to himself and starts smirking as he sees an opportunity in his words."
 
@@ -143,6 +143,9 @@ label scene_cupid_closing:
 
         Me "Fuck off, Cupid."
 
+        hide i_cupid neutral
+        with dissolve
+
         Narrator "I trail off in my laughter as I look to my side and..."
         Narrator "He is gone."
         Narrator "It is just me, the weirdly clear night sky, and the choice of that comes next..."
@@ -150,7 +153,7 @@ label scene_cupid_closing:
         Me "...Fuck."
         Me "I think my break is over."
 
-        show bg bar dark
+        show bar dark
         with Fade(2, 1, 1)
 
         if zayn_stats < randall_stats > cynthia_stats:
@@ -178,17 +181,17 @@ label scene_cupid_closing:
         else:
             "The people Leyla feels most drawn to after the night's events are..."
 
-            if (randall_stats > cynthia_stats) and (randall_stats > zayn_stats) or (randall_stats >= 2) :
+            if (randall_stats >= cynthia_stats) and (randall_stats >= zayn_stats) or (randall_stats >= 2) :
                 show i_randall normal blushing
                 "Randall."
                 hide i_randall normal blushing
 
-            if (cynthia_stats > randall_stats) and (cynthia_stats > zayn_stats) or (cynthia_stats >= 2):
+            if (cynthia_stats >= randall_stats) and (cynthia_stats >= zayn_stats) or (cynthia_stats >= 2):
                 show i_cynthia blushing
                 "Cynthia."
                 hide i_cynthia blushing
 
-            if (zayn_stats > randall_stats) and (zayn_stats > cynthia_stats) or (zayn_stats >= 2):
+            if (zayn_stats >= randall_stats) and (zayn_stats >= cynthia_stats) or (zayn_stats >= 2):
                 show i_zayn blushing
                 "Zayn"
                 hide i_zayn blushing

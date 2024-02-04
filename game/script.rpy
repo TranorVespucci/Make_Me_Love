@@ -380,7 +380,8 @@ label start:
     "We made it over the course of 48h at the Global Game Jam 2024. This project was a lot of fun to make and, if you made it this far, we hope you enjoyed reading and playing with us as much as we did make it!"
     
     if pong_games_won < 7:
-        "Don’t forget that the Pong events and deciding whether a joke ended up landing or not had an influence on your ending! You unfortunately don’t get any more scenes with the Love interests, but you might be able to get a different scene with Cupid..."
+        "Don’t forget that the Pong events and deciding whether a joke ended up landing or not had an influence on your ending!" 
+        "You unfortunately don’t get any more scenes with the Love interests, but you might be able to get a different scene with Cupid..."
 
     "Please take our gratitude and our love to heart!\n
     Yours, Gorgeous Gorgeous Görlies"
