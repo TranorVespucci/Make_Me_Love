@@ -41,7 +41,7 @@ with dissolve
 
 zayn "Well that’s me. A simple “thank you for saving me” would be enough. Are you alright?"
 
-Me "ehm. Yeah of course thanks."
+Me "ehm. Yeah of course, thanks."
 
 zayn "And what the hell were you doing on the streets? Can´t you just open your eyes when you walk?"
 zayn "I am not always there to get you out of trouble."
@@ -60,13 +60,13 @@ show i_zayn mischievous
 zayn "You owe me one now. But I´ll keep that favour for later."
 
 Narrator "Why did he always have to be such an asshole? He has a talent for making me furious."
-Narrator "How could Becky fall for one of his friends?  "
+Narrator "How could Becky fall for one of his friends?"
 Narrator "I breathe in and out and try to regulate my anger. I am better than that."
-Narrator "I won't let him provoke me. I give him one better."
+Narrator "I won't let him provoke me. I'll give him one better."
 
-Me "As if. I think that I have to put up with you every day is compensation enough."
+Me "As if. I think the fact that I have to put up with you every day is compensation enough."
 
-Narrator "I wink at him mischievously and turn around. Leaving him alone gives me a sense of achievement that I really enjoyed."
+Narrator "I wink at him mischievously and turn around. Leaving him alone gives me a sense of achievement that I really enjoy."
 Narrator "As if he would let me have this success."
 
 hide i_zayn mischievous
@@ -76,7 +76,7 @@ Narrator "Just as I turn and am about to leave him standing there, I feel his br
 zayn "You know, it's not particularly nice to just turn your back on your saviour like that sweety."
 
 Narrator "Although his words seem perfectly normal, the tone of his whisper eliminate any confidence I had had a few seconds ago."
-Narrator "I mean He is right but out of shame or something else the red headlight costume somehow reappears."
+Narrator "I mean, he is right, but out of shame or something else the red headlight costume somehow reappears."
 
 show i_zayn laughing
 
@@ -117,9 +117,9 @@ if _return == opponent: #loose
 
     show i_zayn laughing
         
-    zayn "I couldn't hide my reaction to his words, so he started laughing out loud."
-    zayn "It was a beautiful sound. I wasn't sure when I had last heard him laugh."
-    zayn "Maybe there was something good about the whole bet with Cupid after all."
+    Narrator "I couldn't hide my reaction to his words, so he started laughing out loud."
+    Narrator "It was a beautiful sound. I wasn't sure when I had last heard him laugh."
+    Narrator "Maybe there was something good about the whole bet with Cupid after all."
 
     show i_zayn neutral
 
@@ -131,8 +131,8 @@ else:
     
     $ pong_games_won += 1
 
-    Me "And I would laugh as they spit out your meat again because you are inedible.
-    So not much help. Thanks for the offer, but unfortunately I have to decline."
+    Me "And I would laugh as they spit out your meat again because you are inedible."
+    Me "So not much help. Thanks for the offer, but unfortunately I have to decline."
 
     show i_zayn mischievous
 
