@@ -50,7 +50,7 @@ label scene_randall_1:
     show i_mysteryR neutral
 
     mystery_randall "Fu-"
-    Narrator "He didn’t seem to be expecting my move either, as our bodies collide with a heavy thunk and we both loose our bearings and fall, inelegantly, on concrete pavement."
+    Narrator "He didn’t seem to be expecting my move either, as our bodies collide with a heavy thunk and we both lose our bearings and fall, inelegantly, on concrete pavement."
 
     Me "Oh shit, I’m so sorry!"
 
@@ -79,7 +79,7 @@ label scene_randall_1:
     Narrator "He isn’t even looking at me in a way of trying to assess my looks- it’s way worse."
     Narrator "An analyzing focus shapes his expression, pressing his lips together in concentration."
     Narrator "He is trying to assess if I’m alright, if I got hurt in the fall- and when he clocks me being careful with my wrist, he grimaces in regret."
-    Narrator "I intensely study a letter adressed to some 'Margot Mulberry' for reasons definetly based entirely on curiosity."
+    Narrator "I intensely study a letter adressed to some “MARGOT MULBERRY” for reasons definetly based entirely on curiosity."
     Narrator "Eventually the time I could spend assesing Ms. Mulberry's adress reaches it's natural limit and, out of insinct, my gaze finds his."
     Narrator "As he looks at me and we both are aware of our attention falling upon the other, his brow unfurrows."
 
@@ -181,7 +181,7 @@ label scene_randall_1:
     mystery_randall "-I mean, I doubt that Libby didn't get any prizes this year, she's a real talent-"
     mystery_randall "-but Frog has to really get over himself, his attitude really brings the points doOOOOWWNN---"
 
-    Narrator "...Whilst the mailman is sucessful in his venture of picking up the last mailstacks, amidst his rambling, he looses his grip on the last one, the pile threatening to fall. Again."
+    Narrator "...Whilst the mailman is sucessful in his venture of picking up the last mailstacks, amidst his rambling, he loses his grip on the last one, the pile threatening to fall. Again."
 
     show i_mysteryR blushing
 
@@ -220,6 +220,11 @@ label scene_randall_1:
     Narrator "Now in sole custody of the pile, Randall carefully parks it within the bag, laughing off his now apparent awkwardness."
 
     randall "Well, Layla, I know you need to run but… I hope I'll run into you again sometime."
+
+    Narrator "Here's you're reminder that this game is an anti-dating sim visual novel, so you won't get the chance to choose you're interactions with the characters!"
+    Narrator "You get to read Layla's interaction with her Love Interests and see if she can resist falling for them as they try to make her laugh- that's where you come in!"
+    Narrator "You control wether a joke lands or not- and thereby, if she falls for them..."
+    Narrator "Remember, Layla doesn't want to fall for anyone, but your goals do not have to align with hers..."
 
     window hide
     $ quick_menu = False
