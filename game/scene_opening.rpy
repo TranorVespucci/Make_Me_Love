@@ -35,7 +35,7 @@ label scene_opening:
 
     Narrator "I inhale deeply"
 
-    Me "Come on girl you know you are loved by so many people. Me being one of them."
+    Me "Come on girl, you know you are loved by so many people. Me being one of them."
     Me "So what is actually your problem?"
 
     becky "I know but you know what I mean."
@@ -204,7 +204,7 @@ label scene_opening:
 
     show i_cupid neutral
 
-    cupid "We'll meet again in a week."
+    cupid "You get... let's say... one night."
 
     show i_cupid mischievous
 
@@ -221,7 +221,7 @@ label scene_opening:
 
     show i_cupid mischievous
 
-    extend " but that won't be a problem for you my dear, right?"
+    extend "but that won't be a problem for you my dear, right?"
 
     Narrator "His grip on my mind seems to tighten all at once, because all I want to do is agree with him and make him happy."
     Narrator "It's as if my head is moving and nodding on its own, as if in a trance. The smile he gave me in response made me completely lose touch with reality."
