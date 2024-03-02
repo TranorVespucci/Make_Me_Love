@@ -108,7 +108,7 @@ label scene_cynthia_closing:
     Narrator "My body staightens out as I finally stand upright, unable to let the tension building moment drown on for any longer."
     Narrator "Resuming my responsibilities, I playfully gesture toward the wall behind me, stacked to the ceiling with liquors, beverages and- well- alcohol."
 
-    Me "I’m a bartender honey, It's my one and only purpose to fulfil your desires."
+    Me "I’m a bartender honey, It's my one and only purpose to fulfill your desires."
     Me "So... What can I do for you?"
 
     Narrator "Cynthia props herself back up and crosses her arms, shaking off the tension of the previous moment."
