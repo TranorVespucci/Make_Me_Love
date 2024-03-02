@@ -234,34 +234,68 @@ label scene_cynthia_closing:
     cynthia "..."
 
     Narrator "Amazing. Now we have awkward silence. Best item on our menu, that's for sure."
-    Narrator "I’m being dramatic, it luckily doesn’t go on for long, it’s just a beat in time, but it’s still bad."
-    narrator "I can’t believe I didn’t see him come back; I hope he wasn’t there for long… "
+    Narrator "I’m being dramatic, it luckily doesn’t go on for long- It’s just a beat in time, but it's extremely unsetteling."
+    Narrator "I can’t believe I didn’t see him come back!"
+    Narrator "I hope he wasn’t there for long…"
 
     zayn "So. Are yous till working?"
     zayn "I’m only asking 'cause I don’t think you’ve taken your break yet so- go and I’ll take over here."
     
-    Me "Oh yea, I haven't taken one yet, but I'm ok!"
-    me "I'll take one soon, I'll just finish up my orders..."
+    Me "Oh yea, I haven't had one yet, but I'm ok!"
+    Me "I'll go soon, I'll just finish up my orders..."
+
+    Narrator "I expect him to nodd and continue on with whatever he's up to, but to my suprise, he stands his ground, brow furrowing in frustration."
+    Narrator "Hyperaware of my surroundings I see Cynthia out of the corner of my eye tending to the pins in her hair, not overtly watching us, but following along subtely."
+    Narrator "Painfully aware of the both of them, I try to settle my nerves and project an air of casualness, though Zayn knows me well."
+    Narrator "His face, for only a moment, twitches into a grimace and back again. He can ready my awkwardness and is thoroughly displeased by it."
+    Narrator "Wait..."
+    Narrator "Is he... jealous?"
+    Narrator "Kinda hot, honestly."
+
+    zayn "No."
+
+    Me "What do you mean “No”?"
+
+    Narrator "Zayn's lip curls in displeasure to my defiance. He folds his arms and pops his chin up slitghtly. This has turned into some weird stand-off."
+
+    zayn "I'm saying no, you won't finish your orders. You're going to go outside. Break time."
+
+    Me "Wha-"
+
+    zayn "Now get out of my way, I have work to do."
+    zayn "Cause that's our job, you know."
+    zayn "To make CUSTOMERS their DRINKS."
+
 
     show i_cynthia mischievous:
         xalign 0.75 yalign 1.0
 
-    make the CUSTOMER her drink."
-    cynthia "Cynthia snorts, prompting Zayn to look at her sharply, and then look back at me with an expression that is the definition of disapproval. "
+    
+    cynthia "Cynthia snorts, prompting Zayn to look at her sharply, and then look back at me with an expression that is the definition of disapproval."
 
-    Me "Ah yes, I probably should do that then-"
+    Narrator "At this point I'm kinda glad to have an out from this situation and I decide that leaving might be for the best, before Zayn get's actively uncomfortable."
+    Narrator "Besides, I can't be bothered to fight with him right now. That's normally more fun if it get's a little ... Well..."
+    Narrator "But I can't really do that infront of Cynthia."
 
-    Narrator "Before I have a chance to further figure out who to say what to, say goodbye or promise to call or not call Cynthia, Zayn jumps to action. "
-    Narrator "He calmly but forcefully takes the bottles from of my hands, pushes me out from behind the bar, and steers me in the direction of the door.  "
-    Narrator "Within seconds I am a good distance away from Cynthia and Zayn rushes back toward the bar. "
-    Narrator "I can’t even begin to process the usual feelings that would be accompanied by feeling him grip me that way, of how close we are as he pushes me away, or what it is to see how seemingly intimidated he is by Cynthia- "
+    Me "Okok, I'm leaving already!"
+
+    Narrator "Before I have a chance to further figure out who to say what to, say goodbye or promise to call or not call Cynthia, Zayn hastelly takes his chance to act."
+    Narrator "He calmly but forcefully takes the bottles from of my hands, puts them down, pushes me out from behind the bar, and steers me in the direction of the door."
+    Narrator "Within seconds I am a good distance away from Cynthia, as Zayn rushes back, taking my place behind the bar."
+    Narrator "There's no time to process the feelings I get when he grips me that way."
+    Narrator "Of just how close our bodies are as he pushes me away with a strong force, still gentle and careful enough to not bruise me."
+    Narrator "To feel his hot, shaking breath at the back of my neck as he steers me away."
+    Narrator "Or to comprehend how intimidates he seems to be by Cynthia, let alone my feelings toward such a strong display of his feelings toward me."
+
 
     show i_cynthia laughing:
         xalign 0.75
 
-    Narrator "I’m too distracted by Cynthia stealthily turning around to me as Zayn takes my place at the bar.  "
-    Narrator "She mouths “Call me” and winks at me, before quickly turning around and playing patient yet entitled customer again, the moment Zayn looks back up.  "
-    Narrator "I need to get out of here. "
+    Narrator "I’m too distracted by Cynthia stealthily turning around to me, Zayn still caught up rushing behind the bar."
+    Narrator "He pick up the bottles, resuming where I left off, as Cynthia's eyes pierce into my soul once more."
+    Narrator "Mischeviously she mouthes “Call me”."
+    Narrator "Cynthia winks at me one last time before she quickly turns around, returning to the role of “patient yet entitled customer” the moment Zayn looks back up from his work, eyes quickly darting between Cynthia and I."
+    Narrator "I need to get out of here."
 
     jump scene_over_cynthia_closing
 
