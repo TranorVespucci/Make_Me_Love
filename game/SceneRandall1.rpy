@@ -101,7 +101,7 @@ label scene_randall_1:
 
     Me "I'm so sorry about this, I should have looked where I was going..."
     Me "How many of these are there, my go-"
-    Narrator "You know what? No, I'm staying away from that word now, not going to risk amusing him."
+    Narrator "You know what? No, I'm staying away from that word now, not going to risk amusing him in any more ways."
     Me "…My goodness."
 
     show i_mysteryR laughing
@@ -164,7 +164,7 @@ label scene_randall_1:
 
     Me "Well I AM actually in a rush, so I should get going."
 
-    Narrator "The Mailman stands up surprised, seemingly catching himself and getting a bit embarrassed for getting side-tracked."
+    Narrator "The mailman stands up surprised, seemingly catching himself and getting a bit embarrassed for getting side-tracked."
 
     mystery_randall "Oh yea you should probably get going then-"
 
@@ -190,8 +190,8 @@ label scene_randall_1:
     Narrator "We stand there, frozen for a moment."
     Narrator "Staring at first at the stack of envelopes, and then at each other."
     Narrator "His hands are large and warm, the slightly roughness of his skin pleasently scratching a little where my soft palms and fingers hold."
-    Narrator "I’m suddenly aware of just how close we’re standing… \n
-                He smells of Citrus and Sandalwood, crisp, soft and comforting."
+    Narrator "I’m suddenly aware of just how close we’re standing…"
+    Narrator "He smells of Citrus and Sandalwood, crisp, soft and comforting."
     Narrator "My breathing feels laboured and straining as I try to remember how my body used to breathe casually on it's own."
     Narrator "If I hadn’t just been persuaded to not meddle with the games of Gods, I’d pray for him not to notice the sweatiness of my palms or hear the obnoxious drumming of my heart."
     Narrator "I curse at my body for giving away my nerves, for being inept at the simple presence of... Whoever this is."
