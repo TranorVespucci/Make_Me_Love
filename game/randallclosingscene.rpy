@@ -85,7 +85,7 @@ Me "Both actually- I work at the “Amor” down the street!"
 Me "It's crazy thactually, that we've never run into eachother before."
 
 Narrator "As I begin to speak again, his genuinly happy expression starts to fade a bit."
-Narrator "At first I grow sligthly confused. Are my words irrational or did I say soething wrong?"
+Narrator "At first I grow sligthly confused. Are my words irrational or did I say something wrong?"
 Narrator "After a moment I notice, however, that his expression rather compares to that of someone growing uneasy in impatience, rather than being unamused with a situation."
 Narrator "Phew."
 
@@ -220,7 +220,9 @@ Narrator "He stops himself."
 
 randall "I couldn't quite figure you out."
 
-randall "I like you, Layla and I'd love to get to know you more. I understand if you're not up for that but I just... I needed you to know, you know?"
+randall "I like you, Layla and I'd love to get to know you more."
+randall "I understand if you're not up for that but I just..."
+randall "I needed you to know, you know?"
 
 Narrator "He averts my gaze shy and vulnerable, absent-mindedly, playing with the rim of his left sleeve."
 
@@ -287,7 +289,7 @@ randall "There's no pressure from my side- If you want to go on a date sometime,
 show i_randall normal blushing
 
 Narrator "The monentum of his comfortable overt-ness seems to be dwindeling a bit now."
-Narrator "He falls back slowly into his old patterns of slighty awkwardness and emarresment, his fingers folding into eachother nervously."
+Narrator "He falls back slowly into his old patterns of slighty awkwardness and embarrasment, his fingers folding into eachother nervously."
 
 randall "All I know, is that you feel... good. Yea, that's awkwardly put, but you get what I mean."
 

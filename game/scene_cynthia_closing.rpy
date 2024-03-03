@@ -63,7 +63,7 @@ label scene_cynthia_closing:
     
     cynthia "I see this is where you had to hurry off to."
     
-    Narrator "Her face finds it's final resting place at a slight angle, her head propped up slightly leaning to the side- quizzicle, playful and ready to play with my emotions again, I'm sure."
+    Narrator "Her head finds it's final resting place at a slight angle, her head propped up slightly leaning to the side- quizzicle, playful and ready to play with my emotions again, I'm sure."
 
     show i_cynthia mischievous
 
@@ -80,7 +80,7 @@ label scene_cynthia_closing:
     Narrator "It wanders with curelty and bliss from my own lips, over to my eyes and back again."
 
     cynthia "Oh, is that so?"
-    cynthia "And what could possibly be that important?"
+    cynthia "And what could possibly be that important?" 
 
     Narrator "Exhasburation flows within me, adrenalin rushing trough my veins as I meet Cynthia's stare."
     Narrator "This... this feels dangerous."
