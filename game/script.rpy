@@ -57,6 +57,10 @@ image i_randall normal blushing = At('randall blushing', sprite_highlight('randa
 #Becky
 image i_becky neutral= At('becky outline', sprite_highlight('becky'))
 
+#Special Images
+image cupid_silhouette_love = "images/Cupid/CupidSilhouetteHot.png"
+image cupid_lover = "images/Cupid/CupidHot.png"
+
 #Defining these Characters
 define Narrator = Character(callback=name_callback, cb_name=None,)
 define Me = Character('Leyla', callback=name_callback, cb_name=None, color="#ffffff")

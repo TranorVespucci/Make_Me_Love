@@ -213,7 +213,7 @@ label scene_zayn_bar:
 
         Narrator "He gently grabs my chin and tilts it upwards so that I have to look at him."
 
-        zayn "Look it´s not that complicated."
+        zayn "Look it's not that complicated."
 
         show i_zayn blushing
 

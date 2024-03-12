@@ -285,7 +285,7 @@ label scene_cupid_closing:
         Narrator "He looks at me quizzically."
         Narrator "He can truly not figure out what is happening right now."
         Narrator "He expected... Something else. He is well and truly surprised and doesn’t understand what I am up to."
-        Narrator "I have bessted a God."
+        Narrator "I have bested a God."
 
         Me "Cupid, why did you make that bet with me?"
 

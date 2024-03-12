@@ -152,21 +152,64 @@ label scene_opening:
 
     stop music fadeout 1.0
 
-    show i_cupid neutral
-
-    play music "dialogue_song.mp3" fadein 1.0
 
     if _return == opponent:
+
+        show cupid_silhouette_love
+
+        pause
+
+        play sound "heartbeat_sfx.wav"
+
+        show cupid_silhouette_love:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0
+
+        
     
         Narrator "Heat makes its electrifying way through my body until my cheeks turn red and my heart starts beating wildly."
+
+        play sound "heartbeat_sfx.wav"
+
+        show cupid_silhouette_love:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0
+
+
         Narrator "I smile, unsure how to react to this feeling.\n
                 Even though I want to prove him wrong, I have to admit that he is very good at what he is doing."
+
+        play sound "heartbeat_sfx.wav"
+
+        show cupid_silhouette_love:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0
+            
+
         Narrator "His smile softens and radiates such a pleasant sense of security that I melt away."
 
-        cupid "Don't be sad my dear. It's no shame to get seduced by the god of love"
+        play sound "heartbeat_sfx.wav"
+
+        show cupid_lover
+        with dissolve
+
+
+        cupid "Don't be sad my dear. It's no shame to get seduced by the god of love."
+
+        hide cupid_lover
+        hide cupid_silhouette_love
+        with fade
 
         show i_cupid laughing
         with dissolve
+
+        play music "dialogue_song.mp3" fadein 1.0
 
         cupid "Well, I have to admit this is not the most realistic scenario to prove your point."
         cupid "So let's make a deal."
@@ -174,6 +217,11 @@ label scene_opening:
 
     # if the Player wins
     else:
+
+        show i_cupid neutral
+
+        play music "dialogue_song.mp3" fadein 1.0
+
         $ pong_games_won += 1
         
         show i_cupid blushing
