@@ -146,14 +146,17 @@ label start:
     scene bar dark
     with Fade(5, 2, 1)
 
-    "Thank you so much for playing our Game!"
-    "We made it over the course of 48h at the Global Game Jam 2024. This project was a lot of fun to make and, if you made it this far, we hope you enjoyed reading and playing with us as much as we did make it!"
+    "Thank you SO MUCH for playing our Game!"
+    "We made it over the course of 48h at the Global Game Jam 2024."
+    "This project was a lot of fun to make and, if you made it this far, we hope you enjoyed reading and playing with us as much as we enjoyed developing it!"
+    "Unfortunately the story ends here for now (whoops, time constraints only let you get so far!!)"
+    "Buuuut perhaps, if we get enough requests (dontmakemeloveggj@gmail.com), we'll create more content to round off the game with more elaborate endings ;)"
     
     if pong_games_won < 7:
-        "Don’t forget that the Pong events and deciding whether a joke ended up landing or not had an influence on your ending!" 
-        "You unfortunately don’t get any more scenes with the Love interests, but you might be able to get a different scene with Cupid..."
+        "Don’t forget that the Pong-events and deciding whether a joke ended up landing or not had an influence on your ending!" 
+        "You unfortunately don’t get any more scenes with the Love Interests, but you might be able to get a different scene with Cupid if you play your cards right..."
 
     "Please take our gratitude and our love to heart!\n
-    Yours, Gorgeous Gorgeous Görlies"
+    Yours, Gorgeous Gorgeous Görlies <3"
 
     return

@@ -20,7 +20,7 @@ label scene_zayn_bar:
     Narrator "When we arrive at the club, Zayn is assigned to help in the warehouse while I prepare the bar. That gives me a little time to myself."
     Narrator "So I welcome the mindless work, which gives my head a little peace for a short while."
     Narrator "The hours pass. The club opens and the droning curtain of my workplace seems to slowly close around me."
-    Narrator "The madness of my everyday life sets in, people order drinks, and ask for advice, to which I give half-qualified answers and try to flirt with me."
+    Narrator "The madness of my everyday life sets in, people order drinks, and ask for advice, to which I give half-qualified answers and the rest try to flirt with me."
     Narrator "Behind these half-hearted chat-up lines, however, I can't see the handwriting of my winged opponent and I find it easy to brush them all off."
     Narrator "Zayn joins me shortly after the club opens and supports me."
     Narrator "Now and then he steals customers from me or snatches bottles I am about to use from under my nose, but to my surprise, I enjoy our games more than they annoy me."
@@ -49,7 +49,7 @@ label scene_zayn_bar:
 
     zayn "Nice to see you too Becky. "
     zayn "I have the feeling that women would rather accuse me than greet me in a friendly way."
-    zayn "I have absolutely no idea what you're talking about. You and Dane had a lovely time together yesterday."
+    zayn "I have absolutely no idea what you're talking about. You and Dane seemed to be having a lovely time together yesterday."
 
     becky "Yes, we had that. I'm glad you noticed."
     becky "But it would have been very kind of you to tell me that he has a girlfriend if you saw that I was obviously flirting with him."
@@ -76,7 +76,8 @@ label scene_zayn_bar:
     show i_zayn neutral:
         xalign 0.3 yalign 1.0
 
-    Narrator "Beckie's confusion is well visible and I myself can´t read any dishonesty out of is face. Then Becky completely broke down."
+    Narrator "Beckie's confusion is well visible and I myself can´t read any dishonesty out of is face."
+    Narrator "...Then Becky completely brakes down."
 
     becky "But his pictures. There was this girl. All over them. Why is everything so complicated?!"
 
@@ -86,11 +87,13 @@ label scene_zayn_bar:
 
     zayn "Oh you mean his sister. Yeah, he recently posted a lot of photos with her because she moved in with him."
 
-    Narrator "The disbelieve is written in both our faces. All of this just because becky couldn´t differentiate between a brother, sister and boyfriend, girlfriend dynamic? I exhale in frustration and then trun to Becky."
+    Narrator "The disbelieve is written in both our faces." 
+    Narrator "All of this just because becky couldn´t differentiate between a brother, sister and boyfriend, girlfriend dynamic?"
+    Narrator "I exhale in frustration and then turn to Becky."
 
-    Me "Well these are good news. Nothing changed. You two had a great time and I think there is a big chance he might like you back."
+    Me "Well this is good news. Nothing changed. You two had a great time and I think there is a big chance he might like you back."
 
-    becky "What if not? I don´t know how to engage this. I am so nervous."
+    becky "What if not? I don´t know how to engage in this. I am so nervous."
 
     Narrator "This girl really needs to relax. I look at Zayn expectingly."
 
@@ -102,7 +105,7 @@ label scene_zayn_bar:
 
     Narrator "I roll my eyes in frustration."
 
-    Me "Urgh are you good for anything?"
+    Me "Ugh, are you good for anything?"
 
     hide i_zayn neutral
     show i_zayn mischievous:
@@ -116,7 +119,7 @@ label scene_zayn_bar:
 
     zayn "He winks at me and then turns to Becky."
 
-    zayn "If he doesn´t do it just ask him to dance with you."
+    zayn "If he doesn´t make a move, just ask him to dance with you."
 
     becky "But how?"
 
@@ -126,7 +129,7 @@ label scene_zayn_bar:
     show i_zayn mischievous:
         xalign 0.3 yalign 1.0 
 
-    zayn "He casually leans against the counter and smiles at me in a soft, heart-melting way. Not fair, damn Cupid. "
+    zayn "He casually leans against the counter and smiles at me in a soft, heart-melting way. Not fair, damn Cupid."
 
     zayn "Next time let me hit on you and not the car."
 
@@ -153,7 +156,8 @@ label scene_zayn_bar:
 
     Dane "Hey guys. Becky, do you want to dance?"
 
-    Narrator "Completely paralysed she slowly takes his hand and walks away with him. I slam my face in disbelief and silently curse everything possible. Zayn appears next to me."
+    Narrator "Completely paralysed she slowly takes his hand and walks away with him."
+    Narrator "I slam my face in disbelief and silently curse everything possible. Zayn appears next to me."
 
     hide i_zayn neutral
     hide i_becky neutral
@@ -205,7 +209,7 @@ label scene_zayn_bar:
 
         Narrator "I open my mouth, but nothing comes out of it."
 
-        Narrator "Not sure if frustrated over his win or week of his gaze I turn down my eyes and try to slow my heartbeat."
+        Narrator "Not sure if frustrated over his win or weak from his gaze I turn down my eyes and try to slow my heartbeat."
 
         Narrator "He gently grabs my chin and tilts it upwards so that I have to look at him."
 
@@ -213,7 +217,7 @@ label scene_zayn_bar:
 
         show i_zayn blushing
 
-        zayn "To my relief, I detect the reddish tone of blush on his cheeks as well. I think we both lost this game."
+        Narrator "To my relief, I detect the reddish tone of blush on his cheeks as well. I think we both lost this game."
 
         Narrator "I take his hand and let myself completely fall into his grip."
 
@@ -247,6 +251,8 @@ label scene_zayn_bar:
         zayn "Yeah, and I see you're resisting so hard."
 
         Narrator "His sarcastic undertone annoys but I can´t help but let myself fall into his grip."
+
+        
 
     
     jump scene_over_zayn_bar

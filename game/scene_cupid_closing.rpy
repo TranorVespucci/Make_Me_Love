@@ -16,31 +16,95 @@ label scene_cupid_closing:
 
     show i_cupid mischievous
 
-    Narrator "Cupid is standing there, pulling up one eyebrow as I recognize him and giving me a playful little wave-"
+    Narrator "Cupid just stands there, pulling up one eyebrow as I recognize him, giving me a playful little wave-"
     Narrator "What a bastard."
-    Narrator "It’s at this moment that I notice that the street has cleared. No more smokers on a break, not even the bouncers of the bars are outside anymore."
-    Narrator "It’s just me and the god of love under the starlight, his eyes sharp, his grin wide, his handiwork laid out in front of him."
+    Narrator "It’s at this moment that I notice that the street has cleared."
+    Narrator "Cars are rare in this street at this time of day anyway, but I'm used to the lulling chatter and rambles of drunkern smokers and bouncers in the night."
+    Narrator "A little bit too silent for my taste, even if I did wish for some peace and quiet."
+    Narrator "But I don't quite regret that wish."
+    Narrator "I settle into the quiet slowly but surely, my muscles untensing, my jaw unclenching."
+    Narrator "All night I've been slightly on edge, wondering of the influence of Cupid upon me and my surroundings."
+    Narrator "Now we play fair."
+    Narrator "He's out in the open, his face bared."
+    Narrator "No more random coffee stalls, heart shaped pebbles, whispers of romantic dramas, weird coincidences and washed out tropes-"
+    Narrator "We both know what's going on, I can relax and face someone that knows it all, if not more than I."
+    Narrator "Cupid winks at me playfully, and I don't try to hold back the rolling of my eyes-"
+    Narrator "We're alone in this road, him and I."
+    Narrator "It’s just me and the god of love under the starlight."
+    Narrator "His eyes sharp, his grin wide, his handywork laid out in front of him."
     Narrator "He must have been watching me all day at this point."
+    Narrator "I hate how proud of himself he looks, letting me just run into his layed out traps and tricks all evening."
+    Narrator "Though I must admit, he's played a good game." 
+    Narrator "I won't admit that to his face just yet though."
+    Narrator "That wicked grin on him is really straining my nerves."
 
-    Me "Enjoying the show now are we?"
+    Me "Enjoying the show now, are we?"
 
-    Narrator "I shout, half-jokingly and half-seriously annoyed."
+    Narrator "I shout, half-jokingly, half-seriously annoyed."
 
     show i_cupid laughing
 
-    Narrator "This seems to be the punch line of some kind of joke to him, as he starts walking my way."
+    Narrator "This seems to be the punch line of some kind of joke to him, errupting into laughter as he starts walking my way."
 
-    cupid "Oh Leyla, of course I did- you made it so very, very entertaining."
+    cupid "Oh Leyla, of course I did! You made it so very, very entertaining."
 
-    Narrator "Cupid teases as he comes to a halt and laying down on the floor, in the middle of the street."
+    Narrator "Cupid teases as he comes to a halt and... lays down on the floor, in the middle of the street."
 
     show i_cupid mischievous
 
     Narrator "He raises his hand to make a gesture, lazily beckoning me to join him at his side."
     Narrator "And so I do."
+    Narrator "Uncertain of his plans but curiousity getting the best of me, I walk toward him."
+    Narrator "He has propped up one leg, layed his head on crossed arms, his eyes closed, his face at peace."
+    Narrator "Looks like he's relaxing on vacation on a sandy beach somewhere, not precareously placed on the middle of the road."
+    Narrator "Roolking my eyes I decide after a few moments to join him, lying down at his side."
     Narrator "And so... there we lie. Under the weirdly clear sky..."
-    Narrator "For the first time of the entire day I am not overwhelmed, I am not scared or confused or worried."
+    Narrator "For the first time in the entire day I am not overwhelmed, I am not scared or confused or worried-"
     Narrator "I just am."
+
+    cupid "So?"
+
+    Narrator "He doesn't change his demeanor and I grow tired of the day, so I just copy in his stead and fold my arms on my chest."
+    Narrator "Closing my eyes I let out a heavy yawn, trying to make my head lay comfortably on the smooth but heard tar beneath it."
+
+    Me "So... what?"
+
+    show i_cupid laughing
+
+    cupid "Soooo? Did you enjoy the evening?"
+    cupid "I'd rather hope so, I tried my very best to put on a good show."
+
+    Me "For your own amusement, you mean?"
+
+    show i_cupid neutral
+
+    Narrator "Cupid hisses at my words."
+    Narrator "I don't bother to open my eyes and see how genuine his display of hurt is."
+
+    cupid "Come now, don't treat me so unjust!"
+    cupid "The entire evening's soirée was ALL catered toward yourself and YOUR amusement, darling."
+    cupid "Tsk, to think of the lenghts I went to, to make it such a perfect, personalized endavour in your very honour!"
+
+    Me "Hah, how very thoughtful of you-"
+
+    cupid "-Yes, I personally would descibe such actions as VERY thoughtful indeed!"
+
+    Narrator "The God shifts beside me, I can hear him gesturing wildely as he speaks."
+    Narrator "Kind of amusing really, that I can get such a rise out of him-"
+    Narrator "The meek, mere mortal being that I am."
+
+
+
+
+
+
+
+
+
+
+
+
+
     Narrator "Staring into the stars, I can feel it all so clearly now."
     Narrator "My feelings are my own."
     Narrator "Their feelings were their own."
@@ -196,7 +260,7 @@ label scene_cupid_closing:
                 "Zayn"
                 hide i_zayn blushing
 
-            "Before her lies a beautiful journey in which she tries to figure out what she truly wants... but the time to decide remains to be seen another day."
+            "Before her lies a beautiful journey in which she tries to figure out what she truly wants... Or who. But, the time to decide remains to be kept for another day."
 
         
 
@@ -216,12 +280,12 @@ label scene_cupid_closing:
         Narrator "I liked the others, sure."
         Narrator "But it’s him I've been longing to see again, all evening."
         Narrator "I didn’t notice it at first, not until this very moment."
-        Narrator "But the one time i haven’t worried, the onetime i have felt truly, truly at easy and my mind stood still was..."
+        Narrator "But the one time i haven’t worried, the one time I have felt truly, truly at easy and my mind stood still was..."
         Narrator "...now"
         Narrator "He looks at me quizzically."
         Narrator "He can truly not figure out what is happening right now."
         Narrator "He expected... Something else. He is well and truly surprised and doesn’t understand what I am up to."
-        Narrator "I have bested the god of love."
+        Narrator "I have bessted a God."
 
         Me "Cupid, why did you make that bet with me?"
 
@@ -248,20 +312,23 @@ label scene_cupid_closing:
 
         Narrator "He starts to stand up, a grin, not playful like before but earnest and amused emerges slowly."
 
-        Me "Like, if you like someone, tell them, that was pretty much the most confusing social experiments of “why not to have God roam the earth” ..."
+        Me "Like, if you like someone, tell them, that was pretty much the most confusing social experiments of “why not to have Gods roam the earth” ..."
 
         Narrator "His grin widens and his hands cover his face, a shiny row of teeth almost reflecting the starlight above. "
 
-        Me "...Which come to think of it, makes this less of a dating show and more of a document-"
+        Me "...Which come to think of it, makes this less of a dating show and more of a documentar-"
 
         Narrator "His hands find the side of my face... the small of my back."
+
+        Me "-ry..."
+
         Narrator "I stare at him, my pulse rising, my vision blurring, my only anchor to this world a waving sky and a man with eyes like starlight."
         Narrator "His hands are warm, and firm and I am breathless as his face is inches from mine."
         Narrator "He smells of vanilla, salt, amber and caramel... sweet, rich and intoxicating."
         Narrator "He's biting his lip and lets out a slow breath that strives over my face like a spring breeze."
         Narrator "I lean forward and my lips slowly connect with his."
         Narrator "He leans in, the both of us kissing tenderly..."
-        Narrator "And so we stand there, locked in each other's embrace. "
+        Narrator "And so we stand there, locked in each other's embrace."
         Narrator "In the middle of the starlight street, on the empty road and with the flickering of broken streetlights and neon signs surrounding us."
         Narrator "Just me and the God of Love."
 
