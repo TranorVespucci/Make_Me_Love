@@ -65,7 +65,7 @@ label scene_cupid_closing:
     cupid "So?"
 
     Narrator "He doesn't change his demeanor and I grow tired of the day, so I just copy in his stead and fold my arms on my chest."
-    Narrator "Closing my eyes I let out a heavy yawn, trying to make my head lay comfortably on the smooth but heard tar beneath it."
+    Narrator "Closing my eyes I let out a heavy yawn, trying to make my head lay comfortably on the smooth but hard tar beneath it."
 
     Me "So... what?"
 
@@ -93,17 +93,99 @@ label scene_cupid_closing:
     Narrator "Kind of amusing really, that I can get such a rise out of him-"
     Narrator "The meek, mere mortal being that I am."
 
+    Me "Though I doubt you did this all entirely for my own good-"
 
+    Narrator "I hear him sharply inhale, ready to interrupt and stagger into a mildly annoying, yet highly defensive rant."
 
+    Me "I have to admit it's not been without it's... Interesting moments."
 
+    Narrator "Cupid stops in his tracks and settles a bit, lowering his arms back beside him, his breath growing calming."
+    Narrator "He's waiting for elaboration- A rare moment of patience." 
+    Narrator "I open my eyes again, slowly, sorting trough my feelings, trying to figure out where I'm trying to go with this."
 
+    Me "This is the first time I've betted a god, it took me some time to try and figure it all out."
+    Me "It didn't feel too good to wonder if anyone's feeligns, including my own, were true or just a trick of yours-"
+    Me "But even amongst such doubts I couldn't help but let myself a hope a little."
 
+    Narrator "Absent-mindedly I start tracing the stars in the deep dark sky." 
+    Narrator "Loops, circles, polygones and lines form amongs the darkness as I jump from one gleaming star to another."
 
+    Me "Hope that it might just be genuine, and that I might enjoy it all-"
 
+    show i_cupid laughing
 
+    Narrator "A melodic chuckle tares me from my methodic tracing venture-"
 
+    cupid "My my, we're dealing with a little romantic here!"
 
+    show i_cupid mischievous
 
+    cupid "Why the sudden change of heart? The whole reason I challenged you in the first place was your blatent disregard of my work."
+    cupid "Don't get me wrong, I'm not suprised my charms won you over-"
+
+    Narrator "I roll my eyes and let out a heaving sigh."
+    
+    Me "Well, it's because I was never TRULY against falling in love!"
+    Me "I just didn't believ you could do good enough of a job to make anyone actually worth while-"
+
+    show i_cupid neutral
+
+    cupid "Wha-?"
+
+    Me "-IN ANY CASE-"
+    Me "You did actually prove me wrong on that regard."
+    Me "If everyone that I met today was sent by you and, well... The moments they shared with me were genuine, they were all..."
+    Me "Well, they were..."
+
+    show i_cupid mischievous
+
+    cupid "...Hot?"
+
+    Me "Well, yes, but I was looking to say something more like-"
+    Me "They were... Next to all being attractive in their own right, they also... felt right."
+
+    show i_cupid neutral
+
+    Me "..."
+    Me "Unless, that was all you, of course."
+    Me "Then none of it was right."
+
+    cupid "..."
+
+    Narrator "We stay silent for a moment."
+    Narrator "I trace the brightest stars in the sky."
+    Narrator "Of course the shape that forms upon their connection is that of an obnoxious, glittering heart."
+    Narrator "Cupid let's the moment draw on for longer than I would normally have deemed neccesary or comfortable, but for now, I don't mind."
+    Narrator "I let the moment spread it's heavy but calming weight into me. 
+    Narrator "The longer the seconds draw on, the less I wait for his response."
+    Narrator "The more I ease into the first moment of calm I've had in so long. I know he'll answer eventually, we are dwelling between beats."
+    Narrator "I don't grow nervous as he takes his time to make his next move. I just await."
+
+    cupid "What do you think, Leyla?"
+    
+    show i_cupid mischievous
+
+    cupid "Do you believe I manipulated all and everyone today?" 
+    cupid "That I made Randall grow shy, as he watched you run your hand trough your hair?"
+    cupid "It must have been stupid Cupid that forced poor Cynthia to grin as she saw how adorable you were assessing the other customer's coffe cups, your face all scrunched up in concentration."
+    cupid "Oh she had two meetings that evening by the way, she missed the first one by not rushing off immediately." 
+    cupid "I must have compelled her to stay with you. I mean, why else would she stay?"
+    cupid "..."
+    
+    show i_cupid laughing
+
+    cupid "Come to think of it, he probably also made Zayn blush as you took off your jumper in the middle of the shift-"
+
+    Narrator "Cupid chuckles to hhimself wildly, and I let him amuse himself until he's run out of things to bring up."
+    Narrator "His words are mocking, but they do make me wonder..."
+    
+    show i_cupid neutral
+
+    Me "..."
+
+    cupid "..."
+
+    cupid "I assume you understand now?"
 
     Narrator "Staring into the stars, I can feel it all so clearly now."
     Narrator "My feelings are my own."
