@@ -291,7 +291,8 @@ show i_randall normal blushing
 Narrator "The monentum of his comfortable overt-ness seems to be dwindeling a bit now."
 Narrator "He falls back slowly into his old patterns of slighty awkwardness and embarrasment, his fingers folding into eachother nervously."
 
-randall "All I know, is that you feel... good. Yea, that's awkwardly put, but you get what I mean."
+randall "All I know, is that you feel... good." 
+randall "Yea, that's awkwardly put, but you get what I mean."
 
 show i_randall normal laughing
 
