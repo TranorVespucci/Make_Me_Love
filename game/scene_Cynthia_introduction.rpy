@@ -13,13 +13,13 @@ $ renpy.pause()
 $ quick_menu = True
 window show
 
-Narrator "With newly summoned vigour I haste through the people of this street."
+Narrator "With newly summoned vigour I haste through the crowd of people."
 Narrator "I walk and walk, and I don’t look back until I’ve reached a few blocks further and I dare to see if I have successfully evaded Randall."
 Narrator "I don’t need to change pavements, but I wait until I’ve reached the next traffic light to fulfil my plan."
 Narrator "Under the guise of not wanting to get hit by a car, I look left and right whilst I traverse the street- an opportunity to complete my motive."
 Narrator "Ah yes, Success! He’s not there…"
 Narrator "He's gone."
-Narrator "Shit."
+Narrator "...Shit."
 Narrator "What if he wasn’t just sent by Cupid, what if that was real?"
 Narrator "A sharp panic starts to pick at my chest."
 Narrator "There is a chance that I just completely messed up a perfectly reasonable and real shot at love, all because I was all too focused on winning my bet."
@@ -27,12 +27,12 @@ Narrator "I slow down my pace a little, trying to calm down the bitter feelings 
 Narrator "I could at least have gotten his number! I could have called him tomorrow, and seen if whatever… That was, that it carries over once the bet is over."
 Narrator "…Although, does it REALLY count as outside of the bet, when I start to like them within the bet’s timeframe?"
 Narrator "Better abstain just in case."
-Narrator "I mean, I guess there's no really bad consiquences of loosing the bet? I'd just have to... admit to Cupid's gullible face that he was right?"
-Narrator "Nah that actualy might be worth missing out on the love of my life, that sounds embarrasing."
+Narrator "I mean, I guess there's no really bad consequences of loosing the bet? I'd just have to... admit to Cupid's gullible face that he was right?"
+Narrator "Nah that actually might be worth missing out on the love of my life, that sounds embarrasing."
 Narrator "Gosh, all this thinking is exhausting me."
 Narrator "I can feel the events of the last hour (IT'S ONLY BEEN AN HOUR?!) catching up with me, but I try to shake it off- I have a long shift today."
 
-Me "“Ugh. Why, the one time I have a meet-cute? Might be the only one I’ll ever have!”"
+Me "“Ugh. Why? The first time I have a meet-cute? Might be the only one I’ll ever have!”"
 Narrator "But just as I start to wallow in indulgent self-pity, I see it."
 Narrator "My pace grinds to a halt."
 Narrator "Luckily, nobody is walking directly behind me, so this halt doesn’t end in another game of human dominos."
@@ -59,7 +59,11 @@ Narrator "Suddenly, that time is over- the customer before me walks off with a h
 Narrator "I don’t want to keep him and the people behind me waiting, so I place my order and smile at the man before I resume my search."
 Narrator "After another few minutes, the man’s smile no longer reaches his eyes."
 Narrator "He has stopped holding out the coffee to me and has put it down, instead now resuming to pottering around within the stall."
-Narrator "My face grows warm in embarrassment as I make him a shaky promise that it is “in here somewhere”, but internally? I am starting to lose hope."
+Narrator "My face grows warm in embarrassment as I make him a shaky promise." 
+
+Me "It's in here somewhere, I promise."
+
+Narrator "but internally? I am starting to lose hope."
 Narrator "Perhaps Cupid wasn't a God and Randall not a meet-cute."
 Narrator "Maybe they're pick-pockets with a specific flair for romance improv."
 Narrator "..."
@@ -94,6 +98,7 @@ Narrator "…I was too focused to notice her order being finished up."
 Narrator "My breath catches in my throat as I try to awaken quickly, to not lose the chance to thank her for her action before she whisks away in a cloud of importance."
 Narrator "It’s only now that I truly realize what happens and I am wrecked with guilt that I was too busy staring at this woman to remember to decline her offer to pay for me."
 Narrator "I know my wallet is in there, I would just have needed another minute or so to find it…"
+
 Me "Thank you so much, just you wait one second, I will pay you back immediately!"
 
 Narrator "I’m about to start jumping into my search once more when she gently places her hand on my shoulder and gives it a slight squeeze."
@@ -117,12 +122,13 @@ Narrator "White, wooden arches frame pink tainted glass, dark green vines with s
 show i_cynthia neutral
 
 Narrator "I immediately take her cue, just following her direction and seating myself next to her, looking out at the street before us."
-Narrator "She doesn’t give me the feeling of needing to think, ask questions, figure out what want to do next."
+Narrator "She doesn’t give me the feeling of needing to think, ask questions or to figure out what to do next."
 Narrator "She seems to want to take the lead, and I’m all to happy to give it to her."
 
 show i_cynthia laughing
 
 mystery_cynthia "Well, that was just precious."
+
 Narrator "I’m struck by her directness as she laughs to herself, sharp but affectionate, leading her neon pink cup to her lips."
 Narrator "Our cups are pink."
 Narrator "Were the other cups pink too?"
@@ -142,7 +148,9 @@ $ met_cynthia = True
 
 cynthia "There."
 cynthia "That’s easy, isn’t it? My name is – and then you insert your own name so that the other person knows who they have the pleasure of meeting."
+
 Narrator "Her smile fades, and her cross, neutral expression comes to show."
+
 cynthia "Try it."
 
 Narrator "I decide to take my chances on having a voice when I begin to speak."
@@ -176,7 +184,7 @@ Narrator "Luckily, before I die, she pulls away again, focusing her eyes almost 
 
 Me "Well apparently finding my own possessions is outside of my capabilities."
 
-Narrator "I don’t think she expected me to say anything- at least no so pointedly as I did."
+Narrator "I don’t think she expected me to say anything- at least no as pointedly as I did."
 Narrator "Her eyes dart back onto me the moment I speak, curiosity and playfulness creeping up within them."
 
 show i_cynthia mischievous
@@ -223,9 +231,9 @@ show i_cynthia laughing
 cynthia "Oh no need to apologize…"
 
 Narrator "She leans over again, but I don’t flinch this time."
-Narrator "The exhilaration of the tension is takes me over…"
+Narrator "The exhilaration of the tension takes me over…"
 Narrator "I don't shy away from meeting her gaze this time."
-Narrator "The Oh so familiar, titilating nervousnous of shying away from somone's stare is replaced by something new, something way more intriguing."
+Narrator "The Oh so familiar, titilating nervousnous of shying away from someone's stare is replaced by something new, something way more intriguing."
 
 show i_cynthia neutral
 
@@ -256,7 +264,8 @@ show i_cynthia neutral
 
 Narrator "I was just a bit too distracted to notice."
 Narrator "By the time I’m done realizing and fixing my coffee cup issue, I look up to see her holding a pencil in her hand, arms crossed, gaze deeply set on watching me."
-Narrator "I grow excited noticing how she was watching me without noticing it entirely- it’s a nice surprise to look up and see someone so astutely observing you, drinking up you’re every move."
+Narrator "I grow excited noticing how she was watching me the entire time-"
+Narrator "It’s a nice surprise to look up and see someone so astutely observing you, drinking up you’re every move."
 Narrator "The grin on my face is half intentional, half just an immediate reaction to my thoughts of her."
 
 show i_cynthia laughing
@@ -293,7 +302,7 @@ if _return == opponent:
 
     Me "I swear that I do, I have all of my paperwork in order!"
     
-    Narrator "Cynthia Joins my laugh and throws one look toward me I wasn’t expecting."
+    Narrator "Cynthia joins my laugh and throws one look toward me I wasn’t expecting."
 
     show i_cynthia blushing
 
@@ -348,7 +357,7 @@ else: #Win
     
     Narrator "Cynthia smiles at me, but I can see the disappointment in her eyes- She looks at her watch and lets out a dramatic sigh."
 
-    cynthia "I suppose that’s a wise decision- I have one more meeting to attend to soon myself."
+    cynthia "I suppose that’s a wise decision- I have one more meeting to attend to soon, myself."
     cynthia "But hey, just in case you would like to do this again sometime…"
 
     Narrator "She picks up my cup and writes something on the lid."
