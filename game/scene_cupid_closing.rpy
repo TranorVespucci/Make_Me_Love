@@ -156,7 +156,7 @@ label scene_cupid_closing:
     Narrator "I trace the brightest stars in the sky."
     Narrator "Of course the shape that forms upon their connection is that of an obnoxious, glittering heart."
     Narrator "Cupid let's the moment draw on for longer than I would normally have deemed neccesary or comfortable, but for now, I don't mind."
-    Narrator "I let the moment spread it's heavy but calming weight into me. 
+    Narrator "I let the moment spread it's heavy but calming weight into me." 
     Narrator "The longer the seconds draw on, the less I wait for his response."
     Narrator "The more I ease into the first moment of calm I've had in so long. I know he'll answer eventually, we are dwelling between beats."
     Narrator "I don't grow nervous as he takes his time to make his next move. I just await."
@@ -167,14 +167,14 @@ label scene_cupid_closing:
 
     cupid "Do you believe I manipulated all and everyone today?" 
     cupid "That I made Randall grow shy, as he watched you run your hand trough your hair?"
-    cupid "It must have been stupid Cupid that forced poor Cynthia to grin as she saw how adorable you were assessing the other customer's coffe cups, your face all scrunched up in concentration."
+    cupid "It must have been stupid Cupid that forced poor Cynthia to grin as she saw how adorable you were assessing the other customer's coffee cups, your face all scrunched up in concentration."
     cupid "Oh she had two meetings that evening by the way, she missed the first one by not rushing off immediately." 
     cupid "I must have compelled her to stay with you. I mean, why else would she have done such a thing?"
     cupid "..."
     
     show i_cupid laughing
 
-    Narrator "For a moment I glance at him-
+    Narrator "For a moment I glance at him-"
     Narrator "He is wildly gesturing, dramatically throughing his hands in the air, the sharp grin of a true trickster lies upon his lips-"
     Narrator "But he's also... Developing a deep, pink staining blush upon his cheeks." 
     Narrator "He must really be getting worked up."

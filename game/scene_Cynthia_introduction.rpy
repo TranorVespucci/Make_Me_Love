@@ -61,7 +61,7 @@ Narrator "After another few minutes, the man’s smile no longer reaches his eye
 Narrator "He has stopped holding out the coffee to me and has put it down, instead now resuming to pottering around within the stall."
 Narrator "My face grows warm in embarrassment as I make him a shaky promise." 
 
-Me "It's in here somewhere, I promise.” 
+Me "It's in here somewhere, I promise."
 
 Narrator "but internally? I am starting to lose hope."
 Narrator "Perhaps Cupid wasn't a God and Randall not a meet-cute."
