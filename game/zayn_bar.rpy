@@ -201,19 +201,63 @@ label scene_zayn_bar:
 
     stop music
 
-    play music "bar_song.mp3" loop
-
     if _return == opponent: #loose
 
         $ zayn_stats += 1
 
+        if zayn_stats >= 2
+            show zayn_silhouette_lover
+            with fade
+
+            pause
+
+            play sound "heartbeat_sfx.wav"
+
+            show zayn_silhouette_lover:
+                truecenter
+                zoom 1.0
+                ease 0.5 zoom 1.2
+                ease 0.5 zoom 1.0
+        else
+            play music "bar_song.mp3" loop
+
         Narrator "I open my mouth, but nothing comes out of it."
+
+        if zayn_stats >= 2
+            play sound "heartbeat_sfx.wav"
+
+            show zayn_silhouette_lover:
+                truecenter
+                zoom 1.0
+                ease 0.5 zoom 1.2
+                ease 0.5 zoom 1.0
 
         Narrator "Not sure if frustrated over his win or weak from his gaze I turn down my eyes and try to slow my heartbeat."
 
+        if zayn_stats >= 2
+            play sound "heartbeat_sfx.wav"
+
+            show zayn_silhouette_lover:
+                truecenter
+                zoom 1.0
+                ease 0.5 zoom 1.2
+                ease 0.5 zoom 1.0
+
         Narrator "He gently grabs my chin and tilts it upwards so that I have to look at him."
 
+        if zayn_stats >= 2
+            play sound "heartbeat_sfx.wav"
+
+            show zayn_lover
+            with dissolve
+
         zayn "Look it's not that complicated."
+
+        hide zayn_lover
+        hide zayn_silhouette_lover
+        with fade
+
+        play music "dialogue_song.mp3" loop
 
         show i_zayn blushing
 
@@ -237,6 +281,7 @@ label scene_zayn_bar:
 
 
     else:
+        play music "bar_song.mp3" loop
 
         $ pong_games_won += 1
 

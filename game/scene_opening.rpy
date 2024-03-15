@@ -156,6 +156,7 @@ label scene_opening:
     if _return == opponent:
 
         show cupid_silhouette_love
+        with fade
 
         pause
 

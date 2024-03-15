@@ -60,6 +60,12 @@ image i_becky neutral= At('becky outline', sprite_highlight('becky'))
 #Special Images
 image cupid_silhouette_love = "images/Cupid/CupidSilhouetteHot.png"
 image cupid_lover = "images/Cupid/CupidHot.png"
+image zayn_silhouette_lover = "images/Zayn/ZaynSilhouetteHot.png"
+image zayn_lover = "images/Zayn/ZaynHot.png"
+image cynthia_silhoutte_lover = "images/Cynthia/CynthiaSilhouetteHot.png"
+image cynthia_lover = "images/Cynthia/CynthiaHot.png"
+image randall_silhouette_lover = "images/Randall/RandallSilhouetteHot.png"
+image randall_lover = "images/Randall/RandallHot.png"
 
 #Defining these Characters
 define Narrator = Character(callback=name_callback, cb_name=None,)

@@ -146,18 +146,66 @@ label scene_cynthia_closing:
 
     stop music
 
-    play music "bar_song.mp3" loop
-
     $ quick_menu = True
     window show
 
     if _return == opponent:
         $ cynthia_stats += 1
 
+        if cynthia_stats >= 2
+            show cynthia_silhoutte_lover
+            with fade
+
+            pause
+
+        play sound "heartbeat_sfx.wav"
+
+        show cynthia_silhoutte_lover:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0 
+
+        else
+            play music "bar_song.mp3" loop
+
         Me "Pffffff-"
+
+        if cynthia_stats >= 2
+            play sound "heartbeat_sfx.wav"
+
+            show cynthia_silhoutte_lover:
+                truecenter
+                zoom 1.0
+                ease 0.5 zoom 1.2
+                ease 0.5 zoom 1.0  
+
         Narrator "I HAVE to laugh at that- "
+
+        if cynthia_stats >= 2
+            play sound "heartbeat_sfx.wav"
+
+            show cynthia_silhoutte_lover:
+                truecenter
+                zoom 1.0
+                ease 0.5 zoom 1.2
+                ease 0.5 zoom 1.0 
+
         Narrator "It’s very on the nose, but her boldness is both amusing and… Well…"
+
+        if cynthia_stats >= 2
+            play sound "heartbeat_sfx.wav"
+
+            show cynthia_lover
+            with dissolve
+
         Narrator "Ok, yea, it’s hot."
+
+        hide cynthia_silhoutte_lover
+        hide cynthia_lover
+        with fade
+
+        play music "bar_song.mp3" loop
 
         show i_cynthia mischievous
 
@@ -176,6 +224,8 @@ label scene_cynthia_closing:
 
 
     else:
+        play music "bar_song.mp3" loop
+
         $ pong_games_won += 1
 
         Narrator "I chuckle, but more out of politeness and less because I find it funny…"

@@ -137,8 +137,6 @@ call screen pong(opponent = "Randall", backdrop = "street dark", opponent_pic = 
 
 stop music
 
-play music "dialogue_song.mp3" loop
-
 $ quick_menu = True
 window show
 
@@ -146,11 +144,63 @@ if _return == opponent:
     
     $ randall_stats += 1
 
+    if randall_stats >= 2
+        show randall_silhouette_lover
+        with fade
+
+        pause
+
+        play sound "heartbeat_sfx.wav"
+
+        show randall_silhouette_lover:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0  
+    else
+    play music "dialogue_song.mp3" loop 
+
     Narrator "I can barely stifle my laughter as the attempted clearing seems to cause further unrest."
+
+    if randall_stats >= 2
+        play sound "heartbeat_sfx.wav"
+
+        show randall_silhouette_lover:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0        
+
     Narrator "Sounds of more things crashing down follow- I'm honestly suprised theres still enough objects left standing to be torn down dramatically in that place."
+    
+    if randall_stats >= 2
+        play sound "heartbeat_sfx.wav"
+
+        show zayn_silhouette_lover:
+            truecenter
+            zoom 1.0
+            ease 0.5 zoom 1.2
+            ease 0.5 zoom 1.0      
+
     Narrator "More cursing and crustrated grunts follow, though they are stifled by the corridor."
+
+    if randall_stats >= 2
+        play sound "heartbeat_sfx.wav"
+
+        show randall_lover
+        with dissolve
+
+
     Narrator "I like him."
+
+    hide randall_silhouette_lover
+    hide randall_lover
+    with fade
+
+    play music "dialogue_song.mp3" loop
+
 else:
+    play music "dialogue_song.mp3" loop
 
     $ pong_games_won += 1
 
