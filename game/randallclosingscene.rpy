@@ -158,7 +158,7 @@ if _return == opponent:
             ease 0.5 zoom 1.2
             ease 0.5 zoom 1.0  
     else:
-    play music "dialogue_song.mp3" loop 
+        play music "dialogue_song.mp3" loop 
 
     Narrator "I can barely stifle my laughter as the attempted clearing seems to cause further unrest."
 
