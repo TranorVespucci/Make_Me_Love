@@ -205,7 +205,7 @@ label scene_zayn_bar:
 
         $ zayn_stats += 1
 
-        if zayn_stats >= 2
+        if zayn_stats >= 2:
             show zayn_silhouette_lover
             with fade
 
@@ -218,12 +218,12 @@ label scene_zayn_bar:
                 zoom 1.0
                 ease 0.5 zoom 1.2
                 ease 0.5 zoom 1.0
-        else
+        else:
             play music "bar_song.mp3" loop
 
         Narrator "I open my mouth, but nothing comes out of it."
 
-        if zayn_stats >= 2
+        if zayn_stats >= 2:
             play sound "heartbeat_sfx.wav"
 
             show zayn_silhouette_lover:
@@ -234,7 +234,7 @@ label scene_zayn_bar:
 
         Narrator "Not sure if frustrated over his win or weak from his gaze I turn down my eyes and try to slow my heartbeat."
 
-        if zayn_stats >= 2
+        if zayn_stats >= 2:
             play sound "heartbeat_sfx.wav"
 
             show zayn_silhouette_lover:
@@ -245,7 +245,7 @@ label scene_zayn_bar:
 
         Narrator "He gently grabs my chin and tilts it upwards so that I have to look at him."
 
-        if zayn_stats >= 2
+        if zayn_stats >= 2:
             play sound "heartbeat_sfx.wav"
 
             show zayn_lover

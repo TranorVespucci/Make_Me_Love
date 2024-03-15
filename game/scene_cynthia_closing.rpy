@@ -152,7 +152,7 @@ label scene_cynthia_closing:
     if _return == opponent:
         $ cynthia_stats += 1
 
-        if cynthia_stats >= 2
+        if cynthia_stats >= 2:
             show cynthia_silhoutte_lover
             with fade
 
@@ -166,12 +166,12 @@ label scene_cynthia_closing:
             ease 0.5 zoom 1.2
             ease 0.5 zoom 1.0 
 
-        else
+        else:
             play music "bar_song.mp3" loop
 
         Me "Pffffff-"
 
-        if cynthia_stats >= 2
+        if cynthia_stats >= 2:
             play sound "heartbeat_sfx.wav"
 
             show cynthia_silhoutte_lover:
@@ -182,7 +182,7 @@ label scene_cynthia_closing:
 
         Narrator "I HAVE to laugh at that- "
 
-        if cynthia_stats >= 2
+        if cynthia_stats >= 2:
             play sound "heartbeat_sfx.wav"
 
             show cynthia_silhoutte_lover:
@@ -193,7 +193,7 @@ label scene_cynthia_closing:
 
         Narrator "It’s very on the nose, but her boldness is both amusing and… Well…"
 
-        if cynthia_stats >= 2
+        if cynthia_stats >= 2:
             play sound "heartbeat_sfx.wav"
 
             show cynthia_lover

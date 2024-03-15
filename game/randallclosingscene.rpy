@@ -144,7 +144,7 @@ if _return == opponent:
     
     $ randall_stats += 1
 
-    if randall_stats >= 2
+    if randall_stats >= 2:
         show randall_silhouette_lover
         with fade
 
@@ -157,12 +157,12 @@ if _return == opponent:
             zoom 1.0
             ease 0.5 zoom 1.2
             ease 0.5 zoom 1.0  
-    else
+    else:
     play music "dialogue_song.mp3" loop 
 
     Narrator "I can barely stifle my laughter as the attempted clearing seems to cause further unrest."
 
-    if randall_stats >= 2
+    if randall_stats >= 2:
         play sound "heartbeat_sfx.wav"
 
         show randall_silhouette_lover:
@@ -173,7 +173,7 @@ if _return == opponent:
 
     Narrator "Sounds of more things crashing down follow- I'm honestly suprised theres still enough objects left standing to be torn down dramatically in that place."
     
-    if randall_stats >= 2
+    if randall_stats >= 2:
         play sound "heartbeat_sfx.wav"
 
         show zayn_silhouette_lover:
@@ -184,7 +184,7 @@ if _return == opponent:
 
     Narrator "More cursing and crustrated grunts follow, though they are stifled by the corridor."
 
-    if randall_stats >= 2
+    if randall_stats >= 2:
         play sound "heartbeat_sfx.wav"
 
         show randall_lover
