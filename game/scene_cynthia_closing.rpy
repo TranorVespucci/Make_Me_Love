@@ -158,13 +158,14 @@ label scene_cynthia_closing:
 
             pause
 
-        play sound "heartbeat_sfx.wav"
+            play sound "heartbeat_sfx.wav"
 
-        show cynthia_silhoutte_lover:
-            truecenter
-            zoom 1.0
-            ease 0.5 zoom 1.2
-            ease 0.5 zoom 1.0 
+            show cynthia_silhoutte_lover:
+                truecenter
+                zoom 1.0
+                ease 0.5 zoom 1.2
+                ease 0.5 zoom 1.0 
+
 
         else:
             play music "bar_song.mp3" loop
