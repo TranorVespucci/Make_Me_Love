@@ -3,7 +3,7 @@ label scene_cynthia_closing:
     window hide
     $ quick_menu = False
 
-    scene street night
+    scene street dark
     with fade
 
     play music "dialogue_song.mp3" loop
@@ -98,7 +98,7 @@ label scene_cynthia_closing:
     Narrator "I lean past her face toward her ear... and whisper. "
 
     Me "I have work of great importance-" 
-    me "I await your order."
+    Me "I await your order."
 
     Narrator "I lean back slowly, allowing me to view her face."
     Narrator "Her lips are softly, sligtly agape, cheecks deeply flushed, breath labored, her eyes helplessly following my movement, like it phsycially pains her to feel me get away."
@@ -133,7 +133,7 @@ label scene_cynthia_closing:
     show i_cynthia blushing
 
     cynthia "So- Leyla."
-    cythia "Serve me."
+    cynthia "Serve me."
 
     window hide
     $ quick_menu = False
@@ -262,8 +262,8 @@ label scene_cynthia_closing:
     zayn "Still hard at work, little one?"
 
     Narrator "I’m holding bottles in my hands."
-    Narrtor "One bottle."
-    Narrtor "Per hand."
+    Narrator "One bottle."
+    Narrator "Per hand."
     Narrator "Two bottles for making a drink for Cynthia."
     Narrator "And I'm grinning, still, at Zayn."
     Narrator "Two bottles, two hot people, one drink, one me."

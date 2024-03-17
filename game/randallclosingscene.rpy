@@ -29,8 +29,8 @@ Narrator "Breathing gets a bit easier as I build my distance toward all of it, a
 Narrator "The faint smell of herbs, flour and burnt tomatoes lingers in the air, for some reason, it makes for a quiet comfort."
 Narrator "I rub my eyes and let the day sink in."
 Narrator "I’m glad it’s over soon, I need to be alone for just a minute, just an hour without weird romance magic."
-Narrtor "Breathe in... And out..."
-Narrtor "Peace at last."
+Narrator "Breathe in... And out..."
+Narrator "Peace at last."
 Narrator "..."
 
 mystery_randall "Leyla?!"
@@ -101,7 +101,7 @@ Narrator "I laugh and playfully tap my own watch."
 
 Me "Make that 10 and you’ll have yourself a deal."
 
-Randall "I rush from place to place for a living alright, it's a challenge, but I'm a professional. I'll make sure to put on my best performance!"
+randall "I rush from place to place for a living alright, it's a challenge, but I'm a professional. I'll make sure to put on my best performance!"
 
 show i_randall pizza blushing
 
@@ -113,11 +113,11 @@ Narrator "Fondely I watch him, as he stumbles inside, hidded by the door swingin
 Narrator "Finally, I have a moment to breathe and think."
 Narrator "What if Cupid only brought these people to me but didn't... Magic them into liking me?"
 Narrator "What if this isn’t fake?" 
-Narratoe "Maybe, when dawn is over I’ll still want this, they will still want this."
+Narrator "Maybe, when dawn is over I’ll still want this, they will still want this."
 Narrator "I like all of them... But who do I really want to still like me tomorrow?"
 Narrator "As I ponder this, possibilities and roundabouts mulling over and over in my mind, something catches my attention."
 Narrator "Within the parlor, behind me, there are at first simple steps of someone approaching-"
-Narrtor "Then there is the sound of items falling down rapidly in sucession, tearing down further items on their way down, everything culminating in thunderous rattles and bangs-"
+Narrator "Then there is the sound of items falling down rapidly in sucession, tearing down further items on their way down, everything culminating in thunderous rattles and bangs-"
 Narrator "Then, the unmistakeable sound of someone stumbleling into said created mess-"
 Narrator "And finally, I hear the sound of Randall cursing something sharply under his breath, as further objects rattle in echoing collision."
 Narrator  "Metal hits tiled flooring, something spins and spins uncontrollably, till it finally twindles it's momentum and collapses in a piercing shiek."
@@ -176,7 +176,7 @@ if _return == opponent:
     if randall_stats >= 2:
         play sound "heartbeat_sfx.wav"
 
-        show zayn_silhouette_lover:
+        show randall_silhouette_lover:
             truecenter
             zoom 1.0
             ease 0.5 zoom 1.2

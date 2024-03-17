@@ -325,7 +325,7 @@ if _return == opponent:
 
     show i_cynthia blushing
 
-    Cynthia "Just in case."
+    cynthia "Just in case."
 
     Narrator "She winks at me as she stands up and gives me one last smile, before she walks away, in the opposite direction of where I need to head."
     

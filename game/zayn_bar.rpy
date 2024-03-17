@@ -256,6 +256,7 @@ label scene_zayn_bar:
         hide zayn_lover
         hide zayn_silhouette_lover
         with fade
+        
 
         play music "dialogue_song.mp3" loop
 
